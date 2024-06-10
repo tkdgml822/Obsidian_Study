@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바/컬렉션 프레임워크 1.md",
+                "file": "자바/Dynamic Proxy.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바/컬렉션 프레임워크 1.md",
+                "file": "자바/Dynamic Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바/컬렉션 프레임워크 1.md",
+                "file": "자바/Dynamic Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바/컬렉션 프레임워크 1.md"
+                "file": "자바/Dynamic Proxy.md"
               }
             }
           },
@@ -159,9 +159,25 @@
   },
   "active": "2f8b906a05380056",
   "lastOpenFiles": [
+    "자바/Proxy란.md",
+    "자바/Dynamic Proxy.md",
+    "자바/Reflection이란.md",
+    "자바/공변과 불공변.md",
+    "자바/시각과 날짜의 처리.md",
+    "자바/스트림 2.md",
+    "자바/무제 파일.md",
+    "자바/스트림 1.md",
+    "자바/images/parallelStream2.png",
+    "자바/images/ParallelStreams.png",
+    "자바/메소드 오버로딩과 String 클래스.md",
+    "자바/메소드 참조와 Optional.md",
+    "자바/람다 표현식.md",
+    "자바/네스티드 클래스와 람다의 첫 소개.md",
+    "자바/열거형, 가변 인자 그리고 어노테이션.md",
+    "자바/컬렉션 프레임워크 2.md",
+    "자바/컬렉션 프레임워크 1.md",
     "자바/클래스 변수와 클래스 메소드.md",
     "자바/제네릭2.md",
-    "자바/컬렉션 프레임워크 1.md",
     "README.md",
     "자바/콘솔 입력과 출력.md",
     "자바/images/collect.png",
@@ -175,27 +191,12 @@
     "자바/자바의 메모리 모델과 Object 클래스.md",
     "자바/images/heap2.png",
     "자바/images/heap.png",
-    "자바/images/stack3.png",
-    "자바/images/stack2.png",
     "자바/예외 처리.md",
     "자바/인터페이스와 추상 클래스.md",
     "자바/클래스의 상속3 상속의 목적.md",
     "자바/클래스의 상속2 오버라이딩.md",
-    "자바/클래스의 상속1 상속의 기본.md",
-    "자바/배열.md",
-    "자바/메소드 오버로딩과 String 클래스.md",
-    "자바/정보 은닉 그리고 캡슐화.md",
-    "자바/패키지와 클래스 패스.md",
-    "자바/클래스와 인스턴스.md",
-    "자바/메소드와 변수의 스코프.md",
-    "자바/실행 흐름의 컨트롤.md",
-    "자바/연산자(Operators).md",
-    "자바/상수와 형 변환.md",
     "자바/images",
-    "READ.md",
-    "Obsidian_Study/README.md",
     "자바",
-    "Obsidian_Study/무제 파일g.md",
     "Obsidian_Study",
     "자바",
     "Obsidian_Study/자바/images",
