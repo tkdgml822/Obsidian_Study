@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian_Study/README.md",
+                "file": "Obsidian_Study/자바/테스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_Study/README.md",
+                "file": "Obsidian_Study/자바/테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_Study/README.md",
+                "file": "Obsidian_Study/자바/테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_Study/README.md"
+                "file": "Obsidian_Study/자바/테스트.md"
               }
             }
           },
@@ -157,11 +157,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "f45f14da1b5d2393",
+  "active": "2f8b906a05380056",
   "lastOpenFiles": [
+    "Obsidian_Study/README.md",
+    "Obsidian_Study/자바/테스트.md",
     "Obsidian_Study/자바",
     "Obsidian_Study/무제 파일g.md",
-    "Obsidian_Study/README.md",
     "Obsidian_Study",
     "Obsidian_Study/자바",
     "Obsidian_Study/자바/연산자(Operators).md",
