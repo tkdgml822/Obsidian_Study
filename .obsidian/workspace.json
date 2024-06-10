@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바/테스트.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c470fa18be7a7b5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "자바/연산자(Operators).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바/테스트.md",
+                "file": "자바/연산자(Operators).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바/테스트.md",
+                "file": "자바/연산자(Operators).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바/테스트.md"
+                "file": "자바/연산자(Operators).md"
               }
             }
           },
@@ -157,16 +170,20 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "f45f14da1b5d2393",
+  "active": "c470fa18be7a7b5d",
   "lastOpenFiles": [
+    "README.md",
+    "자바/images/operators-image.png",
+    "자바/상수와 형 변환.md",
+    "자바/연산자(Operators).md",
+    "자바/images",
+    "READ.md",
     "Obsidian_Study/README.md",
-    "자바/테스트.md",
     "자바",
     "Obsidian_Study/무제 파일g.md",
     "Obsidian_Study",
     "자바",
     "Obsidian_Study/자바/연산자(Operators).md",
-    "무제 파일.md",
     "Obsidian_Study/자바/images",
     "Obsidian_Study/자바/images/operators-image.png",
     "Obsidian_Study/자바/상수와 형 변환.md",
