@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cf2f31e010fa9c7d",
+        "id": "8433ec88c8bdd512",
         "type": "tabs",
         "children": [
           {
-            "id": "2f8b906a05380056",
+            "id": "8c9c47064eade518",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0cb1037fcb59ea30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP/SSL이란?.md",
+                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP/SSL이란?.md",
+                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP/SSL이란?.md"
+                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md"
               }
             }
           },
@@ -138,11 +151,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,17 +170,25 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "2f8b906a05380056",
+  "active": "0cb1037fcb59ea30",
   "lastOpenFiles": [
-    "자바/실행 흐름의 컨트롤.md",
-    "HTTP/SSL이란?.md",
-    "HTTP",
     "README.md",
+    "Spring/images/addItem.png",
+    "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
+    "자바/자바의 메모리 모델과 Object 클래스.md",
+    "자바/열거형, 가변 인자 그리고 어노테이션.md",
+    "자바/스트림 1.md",
+    "자바/공변과 불공변.md",
+    "자바/메소드 참조와 Optional.md",
+    "HTTP/SSL이란?.md",
+    "Spring/images",
+    "Spring",
+    "자바/상수와 형 변환.md",
+    "자바/실행 흐름의 컨트롤.md",
+    "HTTP",
     "자바/클래스와 인스턴스.md",
     "자바/메소드와 변수의 스코프.md",
     "자바/연산자(Operators).md",
-    "자바/상수와 형 변환.md",
-    "자바/공변과 불공변.md",
     "자바/네스티드 클래스와 람다의 첫 소개.md",
     "자바/상수와/형/변환.md",
     "자바/상수와/형",
@@ -180,15 +202,9 @@
     "자바/시각과 날짜의 처리.md",
     "자바/스트림 2.md",
     "자바/무제 파일.md",
-    "자바/스트림 1.md",
     "자바/images/parallelStream2.png",
     "자바/images/ParallelStreams.png",
     "자바/메소드 오버로딩과 String 클래스.md",
-    "자바/메소드 참조와 Optional.md",
-    "자바/람다 표현식.md",
-    "자바/열거형, 가변 인자 그리고 어노테이션.md",
-    "자바/컬렉션 프레임워크 2.md",
-    "자바/컬렉션 프레임워크 1.md",
     "자바/images/collect.png",
     "자바/images/Deque.png",
     "자바/images/FIFO.png",
@@ -196,13 +212,10 @@
     "자바/images/linkedList.png",
     "자바/images/arraylist.png",
     "자바/images/heap2.png",
-    "자바/images/heap.png",
     "자바/images",
     "자바",
     "Obsidian_Study",
     "자바",
-    "Obsidian_Study/자바/images",
-    "자바",
-    "Obsidian Study"
+    "Obsidian_Study/자바/images"
   ]
 }
