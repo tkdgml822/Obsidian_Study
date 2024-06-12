@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP/SSL이란?.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
+                "file": "자바/상수와 형 변환.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md"
+                "file": "README.md"
               }
             }
           },
@@ -170,20 +169,20 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "0cb1037fcb59ea30",
+  "active": "8c9c47064eade518",
   "lastOpenFiles": [
+    "HTTP/SSL이란?.md",
+    "자바/상수와 형 변환.md",
     "README.md",
-    "Spring/images/addItem.png",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
+    "Spring/images/addItem.png",
     "자바/자바의 메모리 모델과 Object 클래스.md",
     "자바/열거형, 가변 인자 그리고 어노테이션.md",
     "자바/스트림 1.md",
     "자바/공변과 불공변.md",
     "자바/메소드 참조와 Optional.md",
-    "HTTP/SSL이란?.md",
     "Spring/images",
     "Spring",
-    "자바/상수와 형 변환.md",
     "자바/실행 흐름의 컨트롤.md",
     "HTTP",
     "자바/클래스와 인스턴스.md",
