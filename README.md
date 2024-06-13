@@ -35,4 +35,4 @@
 [검증 처리 - 입력한 내용이 유지 되는 이유](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring/%EA%B2%80%EC%A6%9D%20%EC%B2%98%EB%A6%AC%20-%20%EC%9E%85%EB%A0%A5%ED%95%9C%20%EB%82%B4%EC%9A%A9%EC%9D%B4%20%EC%9C%A0%EC%A7%80%20%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md) </br>
 
 # HTTP
-[SSL이란](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/SSL%EC%9D%B4%EB%9E%80%3F.md)</br>
+[SSL이란](HTTP/SSL이란?)</br>
