@@ -37,4 +37,4 @@
 # HTTP
 [SSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/SSL%EC%9D%B4%EB%9E%80%3F.md)</br>
 [TSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/TSL이란%3F.md)</br>
-[TSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/TCP,%20UDP.md)</br>
+[TCP, UDP](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/TCP,%20UDP.md)</br>
