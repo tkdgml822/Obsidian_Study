@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "HTTP/TCP, UDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "HTTP/TCP, UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "HTTP/TCP, UDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "HTTP/TCP, UDP.md"
               }
             }
           },
@@ -159,11 +159,19 @@
   },
   "active": "4cb3cd58fc8a2dc7",
   "lastOpenFiles": [
-    "HTTP/TSL이란?.md",
-    "Spring/images/addItem.png",
-    "README.md",
-    "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "HTTP/SSL이란?.md",
+    "HTTP/TCP, UDP.md",
+    "HTTP/TSL이란?.md",
+    "HTTP/images/TCP6.png",
+    "HTTP/images/TCP5.png",
+    "HTTP/images/TCP4.png",
+    "HTTP/images/TCP3.png",
+    "HTTP/images/TCP2.png",
+    "HTTP/images/TCP1.png",
+    "HTTP/images",
+    "README.md",
+    "Spring/images/addItem.png",
+    "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "자바/클래스의 상속2 오버라이딩.md",
     "자바/Dynamic Proxy.md",
     "자바/상수와 형 변환.md",
@@ -189,20 +197,12 @@
     "자바/Proxy란.md",
     "자바/Reflection이란.md",
     "자바/시각과 날짜의 처리.md",
-    "자바/스트림 2.md",
     "자바/images/parallelStream2.png",
     "자바/images/ParallelStreams.png",
     "자바/images/collect.png",
-    "자바/images/Deque.png",
-    "자바/images/FIFO.png",
-    "자바/images/LIFO.png",
-    "자바/images/linkedList.png",
-    "자바/images/arraylist.png",
-    "자바/images/heap2.png",
     "자바/images",
     "자바",
     "Obsidian_Study",
-    "자바",
-    "Obsidian_Study/자바/images"
+    "자바"
   ]
 }
