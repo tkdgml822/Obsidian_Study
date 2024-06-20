@@ -126,23 +126,29 @@ public class Main {
 
 오버라이드 해준 결과다. 
 
-`if (this == obj)` : 같은 객체가 들어오면 true `cat1.equals(cat1)`와 같이 들어오면 true가 된다.
-`if (obj == null || getClass() != obj.getClass())`: null이 들어오거나 getClass()로 현재 참조 중인 클래스와 비교할 클래스가 다르면 `false` 가 된다.
-`Cat cat = (Cat) obj` :  Object 클래스를 Cat 객체로 다운 캐스팅을 해주고 대입해줍니다.
-`return Objects.equals(type, cat.type)`: 그리고 Objects.equals()로 type이랑 다운 캐스팅을 해준 Cat에 있는 type이랑 비교해줍니다.
+`if (this == obj)`
+같은 객체가 들어오면 true가 반환 된다. "cat1.equals(cat1)" 와 같이 들어오면 true가 된다.
 
+`if (obj == null || getClass() != obj.getClass())`
+null이 들어오거나 getClass()로 현재 참조 중인 클래스와 비교할 클래스가 다르면 `false` 가 된다.
+
+`Cat cat = (Cat) obj` 
+Object 클래스를 Cat 객체로 다운 캐스팅을 해주고 대입해줍니다.
+
+`return Objects.equals(type, cat.type)`
+그리고 Objects.equals()로 type이랑 다운 캐스팅을 해준 Cat에 있는 type이랑 비교해줍니다.
 
 # hashCode()
 아마 전글이 `hashCode()`에 관한 글이다. 
 [HashCode](https://github.com/tkdgml822/Obsidian_Study/blob/main/자바/hashCode.md)를 잘 모르면 참고해주시면 감사하겠습니다.
-- - -
+
 `equals()`을 오버라이딩 할때 hashCode()을 함께 오버라이딩하는 것이 일반적이다. 
 이는 `equals()` 메소드가 true를 반환하는 두 객체는 동일한 해쉬 코드를 반환해야 하기 때문이다.
 
 **안하면?**
 해시 기반의 컬렉션(HashMap, HashSet)에서 예상치 못한 동작이 발생 할 수 있다.
 
-
+- - -
 참고 </br>
 [Java(자바)- 이항연산자 3.비교 연산자(==, !=, <, <=, >, >=)](https://park-youjin.tistory.com/15)</br>
 [Java 문자열(String) 비교 방법 ==, equals() 차이](https://milku.tistory.com/112)
