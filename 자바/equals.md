@@ -31,8 +31,9 @@ public class Test() {
 
 		 윗 예제로 예를 들면 "123"은  "String Pool" 영역에 들어가서 다 같이 사용한다.
 		 하지만 new로 생성하면 그렇지 않다. 아래는 참고 그림이다.
-</details>
-![자바Pool](자바/images/java-string-pool.png)		
+</details> </br>
+
+![자바Pool](자바/images/java-string-pool.png)
 
 `equals()`을 사용하면 객체 간의 내용을 비교한다. 정확히 말하면 객체간의 **동등성**을 비교하는데 사용된다.
 
