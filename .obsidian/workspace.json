@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "07c53ad888041298",
+        "id": "978f7ec64cadbcca",
         "type": "tabs",
         "children": [
           {
-            "id": "4cb3cd58fc8a2dc7",
+            "id": "cc66ea4e7734ef4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "자바/equals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "자바/equals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "자바/equals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "자바/equals.md"
               }
             }
           },
@@ -157,10 +157,13 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "4cb3cd58fc8a2dc7",
+  "active": "cc66ea4e7734ef4d",
   "lastOpenFiles": [
+    "자바/equals.md",
+    "자바/Dynamic Proxy.md",
     "자바/hashCode.md",
     "README.md",
+    "자바/images/java-string-pool.png",
     "자바/컬렉션 프레임워크 2.md",
     "자바/동일성 동등성.md",
     "HTTP/TCP, UDP.md",
@@ -176,7 +179,6 @@
     "Spring/images/addItem.png",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "자바/클래스의 상속2 오버라이딩.md",
-    "자바/Dynamic Proxy.md",
     "자바/상수와 형 변환.md",
     "자바/상수와.md",
     "자바/자바의 메모리 모델과 Object 클래스.md",
@@ -196,11 +198,8 @@
     "자바/상수와/형",
     "자바/상수와",
     "Obsidian.md",
-    "링크.md",
-    "자바/Proxy란.md",
     "자바/images/parallelStream2.png",
     "자바/images/ParallelStreams.png",
-    "자바/images/collect.png",
     "자바/images",
     "자바",
     "Obsidian_Study",
