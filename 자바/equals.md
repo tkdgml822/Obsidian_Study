@@ -142,10 +142,10 @@ public class Main {
 해시 기반의 컬렉션(HashMap, HashSet)에서 예상치 못한 동작이 발생 할 수 있다.
 
 
-참고
-https://park-youjin.tistory.com/15 </br>
-https://milku.tistory.com/112 </br>
-https://lnsideout.tistory.com/entry/JAVA%EC%9E%90%EB%B0%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%B9%84%EA%B5%90-equals-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%B0%A8%EC%9D%B4%EC%A0%90 </br>
-https://www.google.com/search?sca_esv=054ae6cb572344c8&rlz=1C5CHFA_enKR958KR958&sxsrf=ADLYWIKUj0okm-dDXbuxF6BXoJoaG4HSdQ:1718881163694&q=String+pool+%EC%9D%B4%EB%AF%B8%EC%A7%80&udm=2&fbs=AEQNm0DmKhoYsBCHazhZSCWuALW8l8eUs1i3TeMYPF4tXSfZ98Z_XVxzNb13fp2atSe3aTZd-aSEBmENVJrVMvMoQtbaiudgVyc-FkVMdKPcvk8Paqq1PmWyZcdL_Bypd8OKuxJiWAgKw8_OM-8oq456WhjSfPe_ArN58CeahxSiIpRFThtafF7su0Oyct2e2woyDHDIghL8Dvtd48CDEqgBRsv1ygTlzQ&sa=X&ved=2ahUKEwjw-bCpg-qGAxUvm68BHe8qCWQQtKgLegQIFhAB&biw=1600&bih=854&dpr=1#vhid=ZsK5Upc_8hm7tM&vssid=mosaic </br>
-https://starkying.tistory.com/entry/what-is-java-string-pool </br>
+참고 </br>
+[Java(자바)- 이항연산자 3.비교 연산자(==, !=, <, <=, >, >=)](https://park-youjin.tistory.com/15)</br>
+[Java 문자열(String) 비교 방법 ==, equals() 차이](https://milku.tistory.com/112)
+[Java 자바 문자열 비교 equals(), == 사용법 및 차이점](https://lnsideout.tistory.com/entry/JAVA%EC%9E%90%EB%B0%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%B9%84%EA%B5%90-equals-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%B0%A8%EC%9D%B4%EC%A0%90)</br>
+[Java String Pool](https://www.javastring.net/java/string/pool)</br>
+[String Constan Pool이란?](https://starkying.tistory.com/entry/what-is-java-string-pool) </br>
 **GPT**
