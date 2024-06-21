@@ -29,8 +29,8 @@ public class Test() {
 		자바를 잘 알고 계신분들은 알고 알고있겠지만 혹시 궁금한분들이 있을수도 있어 적어본다.
 		자바는 String을 생성하게 된다면 해당 String 값은 Heap 영역내에 "String Pool"이라는 영역에 들어가게 된다. 
 
-	 윗 예제로 예를 들면 "123"은  "String Pool" 영역에 들어가서 다 같이 사용한다.
-	 하지만 new로 생성하면 그렇지 않다. 아래는 참고 그림이다.
+ 윗 예제로 예를 들면 "123"은  "String Pool" 영역에 들어가서 다 같이 사용한다.
+ 하지만 new로 생성하면 그렇지 않다. 아래는 참고 그림이다.
 </details> </br>
 
 ![자바Pool](images/java-string-pool.png)
