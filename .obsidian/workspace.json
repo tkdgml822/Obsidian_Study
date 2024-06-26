@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바/equals.md",
+                "file": "자바/동일성과 동등성.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바/equals.md",
+                "file": "자바/동일성과 동등성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바/equals.md",
+                "file": "자바/동일성과 동등성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바/equals.md"
+                "file": "자바/동일성과 동등성.md"
               }
             }
           },
@@ -159,8 +159,10 @@
   },
   "active": "f78c202f8c72d3c6",
   "lastOpenFiles": [
-    "자바/hashCode.md",
     "자바/equals.md",
+    "자바/동일성과 동등성.md",
+    "자바/images/trash.png",
+    "자바/hashCode.md",
     "자바/Dynamic Proxy.md",
     "README.md",
     "자바/images/java-string-pool.png",
@@ -199,7 +201,6 @@
     "자바/상수와",
     "Obsidian.md",
     "자바/images/parallelStream2.png",
-    "자바/images/ParallelStreams.png",
     "자바/images",
     "자바",
     "Obsidian_Study",
