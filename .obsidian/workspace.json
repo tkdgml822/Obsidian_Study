@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8ba22ebc994daaa2",
+        "id": "5406f78263f481a8",
         "type": "tabs",
         "children": [
           {
-            "id": "f78c202f8c72d3c6",
+            "id": "8c788c81f0faefd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바/동일성과 동등성.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바/동일성과 동등성.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바/동일성과 동등성.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바/동일성과 동등성.md"
+                "file": "README.md"
               }
             }
           },
@@ -157,10 +157,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "f78c202f8c72d3c6",
+  "active": "8c788c81f0faefd7",
   "lastOpenFiles": [
-    "README.md",
+    "자바/HashMap 자세히 살펴보기(아직 덜 적음).md",
+    "자바/컬렉션 프레임워크 1.md",
     "자바/동일성과 동등성.md",
+    "README.md",
     "자바/equals.md",
     "자바/images/trash.png",
     "자바/hashCode.md",
@@ -196,10 +198,8 @@
     "자바/메소드와 변수의 스코프.md",
     "자바/연산자(Operators).md",
     "자바/네스티드 클래스와 람다의 첫 소개.md",
-    "자바/상수와/형/변환.md",
     "자바/상수와/형",
     "자바/상수와",
-    "Obsidian.md",
     "자바/images/parallelStream2.png",
     "자바/images",
     "자바",
