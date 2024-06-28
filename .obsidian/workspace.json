@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5406f78263f481a8",
+        "id": "7c3f572dd36814b6",
         "type": "tabs",
         "children": [
           {
-            "id": "8c788c81f0faefd7",
+            "id": "124d4a1087a0e70a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,12 +157,14 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "8c788c81f0faefd7",
+  "active": "124d4a1087a0e70a",
   "lastOpenFiles": [
+    "HTTP/HTTP3.md",
+    "README.md",
+    "2024-06-27.md",
     "자바/HashMap 자세히 살펴보기(아직 덜 적음).md",
     "자바/컬렉션 프레임워크 1.md",
     "자바/동일성과 동등성.md",
-    "README.md",
     "자바/equals.md",
     "자바/images/trash.png",
     "자바/hashCode.md",
@@ -196,8 +198,6 @@
     "HTTP",
     "자바/클래스와 인스턴스.md",
     "자바/메소드와 변수의 스코프.md",
-    "자바/연산자(Operators).md",
-    "자바/네스티드 클래스와 람다의 첫 소개.md",
     "자바/상수와/형",
     "자바/상수와",
     "자바/images/parallelStream2.png",
