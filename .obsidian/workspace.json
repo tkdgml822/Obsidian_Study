@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7cd7619635634f59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "아키텍처/레이어드 아키텍처.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "아키텍처/레이어드 아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "아키텍처/레이어드 아키텍처.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "아키텍처/레이어드 아키텍처.md"
               }
             }
           },
@@ -138,12 +151,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,10 +169,14 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "124d4a1087a0e70a",
+  "active": "7cd7619635634f59",
   "lastOpenFiles": [
-    "HTTP/HTTP3.md",
+    "HTTP, 네트워크/로드 밸런싱이란?.md",
+    "아키텍처/레이어드 아키텍처.md",
+    "아키텍처",
     "README.md",
+    "네트워크",
+    "HTTP, 네트워크/HTTP3.md",
     "2024-06-27.md",
     "자바/HashMap 자세히 살펴보기(아직 덜 적음).md",
     "자바/컬렉션 프레임워크 1.md",
@@ -172,16 +188,16 @@
     "자바/images/java-string-pool.png",
     "자바/컬렉션 프레임워크 2.md",
     "자바/동일성 동등성.md",
-    "HTTP/TCP, UDP.md",
-    "HTTP/SSL이란?.md",
-    "HTTP/TSL이란?.md",
-    "HTTP/images/TCP6.png",
-    "HTTP/images/TCP5.png",
-    "HTTP/images/TCP4.png",
-    "HTTP/images/TCP3.png",
-    "HTTP/images/TCP2.png",
-    "HTTP/images/TCP1.png",
-    "HTTP/images",
+    "HTTP, 네트워크/TCP, UDP.md",
+    "HTTP, 네트워크/SSL이란?.md",
+    "HTTP, 네트워크/TSL이란?.md",
+    "HTTP, 네트워크/images/TCP6.png",
+    "HTTP, 네트워크/images/TCP5.png",
+    "HTTP, 네트워크/images/TCP4.png",
+    "HTTP, 네트워크/images/TCP3.png",
+    "HTTP, 네트워크/images/TCP2.png",
+    "HTTP, 네트워크/images/TCP1.png",
+    "HTTP, 네트워크/images",
     "Spring/images/addItem.png",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "자바/클래스의 상속2 오버라이딩.md",
@@ -195,15 +211,11 @@
     "Spring/images",
     "Spring",
     "자바/실행 흐름의 컨트롤.md",
-    "HTTP",
-    "자바/클래스와 인스턴스.md",
-    "자바/메소드와 변수의 스코프.md",
+    "HTTP, 네트워크",
     "자바/상수와/형",
     "자바/상수와",
     "자바/images/parallelStream2.png",
     "자바/images",
-    "자바",
-    "Obsidian_Study",
     "자바"
   ]
 }
