@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "데이터베이스/트랜잭션이란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "데이터베이스/트랜잭션이란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "데이터베이스/트랜잭션이란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "데이터베이스/트랜잭션이란?.md"
               }
             }
           },
@@ -171,9 +171,11 @@
   },
   "active": "7cd7619635634f59",
   "lastOpenFiles": [
+    "README.md",
+    "데이터베이스/트랜잭션이란?.md",
+    "데이터베이스",
     "아키텍처/레이어드 아키텍처.md",
     "HTTP, 네트워크/로드 밸런싱이란?.md",
-    "README.md",
     "아키텍처",
     "네트워크",
     "HTTP, 네트워크/HTTP3.md",
@@ -210,12 +212,10 @@
     "자바/메소드 참조와 Optional.md",
     "Spring/images",
     "Spring",
-    "자바/실행 흐름의 컨트롤.md",
     "HTTP, 네트워크",
     "자바/상수와/형",
     "자바/상수와",
     "자바/images/parallelStream2.png",
-    "자바/images",
-    "자바"
+    "자바/images"
   ]
 }

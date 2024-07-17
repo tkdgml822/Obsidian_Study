@@ -44,3 +44,6 @@
 [TCP, UDP](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/TCP,%20UDP.md)</br>
 [HTTP3](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/HTTP3)</br>
 [로드 밸런싱이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1%EC%9D%B4%EB%9E%80%3F.md) </br>
+
+
+# 데이터베이스
