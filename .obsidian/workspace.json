@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "124d4a1087a0e70a",
+            "id": "7cd7619635634f59",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "7cd7619635634f59",
+            "id": "6de5a76665ee03ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Spring Security/인증 처리.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Spring Security/인증 처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Spring Security/인증 처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Spring Security/인증 처리.md"
               }
             }
           },
@@ -169,8 +169,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "7cd7619635634f59",
+  "active": "6de5a76665ee03ba",
   "lastOpenFiles": [
+    "Spring Security/image/인증처리과정.png",
+    "Spring Security/인증 처리.md",
+    "Spring Security/image",
+    "Spring Security",
     "JPA/영속성 컨텍스트란?.md",
     "README.md",
     "데이터베이스/트랜잭션이란?.md",
@@ -209,13 +213,8 @@
     "자바/상수와.md",
     "자바/자바의 메모리 모델과 Object 클래스.md",
     "자바/열거형, 가변 인자 그리고 어노테이션.md",
-    "자바/스트림 1.md",
-    "자바/공변과 불공변.md",
     "Spring/images",
     "Spring",
-    "HTTP, 네트워크",
-    "자바/상수와/형",
-    "자바/상수와",
-    "자바/images/parallelStream2.png"
+    "HTTP, 네트워크"
   ]
 }
