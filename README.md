@@ -38,6 +38,9 @@
 # 스프링
 [검증 처리 - 입력한 내용이 유지 되는 이유](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring/%EA%B2%80%EC%A6%9D%20%EC%B2%98%EB%A6%AC%20-%20%EC%9E%85%EB%A0%A5%ED%95%9C%20%EB%82%B4%EC%9A%A9%EC%9D%B4%20%EC%9C%A0%EC%A7%80%20%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md) </br>
 
+# 스프링 시큐리티
+[인증 처리 과정](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/%EC%9D%B8%EC%A6%9D%20%EC%B2%98%EB%A6%AC.md)</br>
+
 # HTTP, 네트워크
 [SSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/SSL%EC%9D%B4%EB%9E%80%3F.md)</br>
 [TSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TSL%EC%9D%B4%EB%9E%80%3F.md)</br>
