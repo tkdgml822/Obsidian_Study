@@ -48,10 +48,8 @@
 [HTTP3](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/HTTP3)</br>
 [로드 밸런싱이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1%EC%9D%B4%EB%9E%80%3F.md) </br>
 
-
 # JPA
 [영속성 컨텍스트란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%9E%80%3F.md)</br>
-
 
 # JWT
 [JWT이란](https://github.com/tkdgml822/Obsidian_Study/blob/ba51f5dc47c69ced22327c9d57e0e19437ec27f7/JWT/JWT.md)</br>
