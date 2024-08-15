@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT/JWT.md",
+                "file": "JWT/토큰 유효기간.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JWT/JWT.md",
+                "file": "JWT/토큰 유효기간.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JWT/JWT.md",
+                "file": "JWT/토큰 유효기간.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JWT/JWT.md"
+                "file": "JWT/토큰 유효기간.md"
               }
             }
           },
@@ -171,9 +171,12 @@
   },
   "active": "6de5a76665ee03ba",
   "lastOpenFiles": [
-    "README.md",
-    "JWT/JWT.md",
     "JWT/토큰 기반 인증의 특징.md",
+    "JWT/image/리프레시_토큰.png",
+    "JWT/토큰 유효기간.md",
+    "JWT/image",
+    "JWT/JWT.md",
+    "README.md",
     "JWT",
     "Spring Security/인증 처리.md",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
@@ -210,12 +213,8 @@
     "HTTP, 네트워크/images/TCP2.png",
     "HTTP, 네트워크/images/TCP1.png",
     "HTTP, 네트워크/images",
-    "Spring/images/addItem.png",
     "자바/클래스의 상속2 오버라이딩.md",
     "자바/상수와 형 변환.md",
-    "자바/상수와.md",
-    "자바/자바의 메모리 모델과 Object 클래스.md",
-    "Spring/images",
-    "Spring"
+    "Spring/images"
   ]
 }
