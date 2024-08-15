@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "JWT/JWT.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "JWT/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "JWT/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "JWT/JWT.md"
               }
             }
           },
@@ -171,8 +171,11 @@
   },
   "active": "6de5a76665ee03ba",
   "lastOpenFiles": [
-    "Spring Security/인증 처리.md",
     "README.md",
+    "JWT/JWT.md",
+    "JWT/토큰 기반 인증의 특징.md",
+    "JWT",
+    "Spring Security/인증 처리.md",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "Spring Security/image/인증처리과정.png",
     "Spring Security/image",
@@ -212,9 +215,7 @@
     "자바/상수와 형 변환.md",
     "자바/상수와.md",
     "자바/자바의 메모리 모델과 Object 클래스.md",
-    "자바/열거형, 가변 인자 그리고 어노테이션.md",
     "Spring/images",
-    "Spring",
-    "HTTP, 네트워크"
+    "Spring"
   ]
 }
