@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT/토큰 유효기간.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JWT/토큰 유효기간.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JWT/토큰 유효기간.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JWT/토큰 유효기간.md"
+                "file": "README.md"
               }
             }
           },
@@ -172,11 +172,11 @@
   "active": "6de5a76665ee03ba",
   "lastOpenFiles": [
     "JWT/토큰 기반 인증의 특징.md",
-    "JWT/image/리프레시_토큰.png",
-    "JWT/토큰 유효기간.md",
-    "JWT/image",
     "JWT/JWT.md",
     "README.md",
+    "JWT/토큰 유효기간.md",
+    "JWT/image/리프레시_토큰.png",
+    "JWT/image",
     "JWT",
     "Spring Security/인증 처리.md",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",

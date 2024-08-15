@@ -50,4 +50,10 @@
 
 
 # JPA
-[영속성 컨텍스트란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%9E%80%3F.md)
+[영속성 컨텍스트란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%9E%80%3F.md)</br>
+
+
+# JWT
+[JWT이란](https://github.com/tkdgml822/Obsidian_Study/blob/ba51f5dc47c69ced22327c9d57e0e19437ec27f7/JWT/JWT.md)</br>
+[토큰 기반 인증의 특징](https://github.com/tkdgml822/Obsidian_Study/blob/ba51f5dc47c69ced22327c9d57e0e19437ec27f7/JWT/%ED%86%A0%ED%81%B0%20%EA%B8%B0%EB%B0%98%20%EC%9D%B8%EC%A6%9D%EC%9D%98%20%ED%8A%B9%EC%A7%95.md)</br>
+[토큰 유효기간](https://github.com/tkdgml822/Obsidian_Study/blob/ba51f5dc47c69ced22327c9d57e0e19437ec27f7/JWT/%ED%86%A0%ED%81%B0%20%EC%9C%A0%ED%9A%A8%EA%B8%B0%EA%B0%84.md)</br>
