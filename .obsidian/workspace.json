@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6de5a76665ee03ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JWT/토큰 유효기간.md",
-                "mode": "source",
+                "file": "Spring Security/UserDeatils & GrantedAuthority.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JWT/토큰 유효기간.md",
+                "file": "Spring Security/UserDeatils & GrantedAuthority.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JWT/토큰 유효기간.md",
+                "file": "Spring Security/UserDeatils & GrantedAuthority.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JWT/토큰 유효기간.md"
+                "file": "Spring Security/UserDeatils & GrantedAuthority.md"
               }
             }
           },
@@ -169,18 +156,19 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "6de5a76665ee03ba",
+  "active": "7cd7619635634f59",
   "lastOpenFiles": [
     "Spring Security/인증 처리.md",
-    "Spring Security/image/인증처리과정.png",
-    "JWT/토큰 유효기간.md",
+    "Spring Security/UserDeatils & GrantedAuthority.md",
     "README.md",
-    "JWT/토큰 기반 인증의 특징.md",
+    "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "JWT/JWT.md",
+    "JWT/토큰 유효기간.md",
+    "JWT/토큰 기반 인증의 특징.md",
+    "Spring Security/image/인증처리과정.png",
     "JWT/image/리프레시_토큰.png",
     "JWT/image",
     "JWT",
-    "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "Spring Security/image",
     "Spring Security",
     "JPA/영속성 컨텍스트란?.md",
