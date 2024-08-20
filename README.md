@@ -50,7 +50,7 @@
 [TCP, UDP](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/TCP,%20UDP.md)</br>
 [HTTP3](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP/HTTP3)</br>
 [로드 밸런싱이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1%EC%9D%B4%EB%9E%80%3F.md) </br>
-
+[Servlet, Servlet Container, ServletContext, WebApplicationContext](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/Servlet%2C%20Servlet%20Container%2C%20ServletContext%2C%20WebApplicationContext.md)</br>
 # JPA
 [영속성 컨텍스트란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%9E%80%3F.md)</br>
 
@@ -58,3 +58,6 @@
 [JWT이란](https://github.com/tkdgml822/Obsidian_Study/blob/ba51f5dc47c69ced22327c9d57e0e19437ec27f7/JWT/JWT.md)</br>
 [토큰 기반 인증의 특징](https://github.com/tkdgml822/Obsidian_Study/blob/ba51f5dc47c69ced22327c9d57e0e19437ec27f7/JWT/%ED%86%A0%ED%81%B0%20%EA%B8%B0%EB%B0%98%20%EC%9D%B8%EC%A6%9D%EC%9D%98%20%ED%8A%B9%EC%A7%95.md)</br>
 [토큰 유효기간](https://github.com/tkdgml822/Obsidian_Study/blob/ba51f5dc47c69ced22327c9d57e0e19437ec27f7/JWT/%ED%86%A0%ED%81%B0%20%EC%9C%A0%ED%9A%A8%EA%B8%B0%EA%B0%84.md)</br>
+
+# OAuth2
+[DefaultOAuth2UserService이란](https://github.com/tkdgml822/Obsidian_Study/blob/main/OAuth/DefaultOAuth2UserService.md#defaultoauth2userservice%EC%9D%B4%EB%9E%80)</br>

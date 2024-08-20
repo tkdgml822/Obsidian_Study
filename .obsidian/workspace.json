@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바/Collections.singleton.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e74a74d92b46fad6",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바/Collections.singleton.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바/Collections.singleton.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바/Collections.singleton.md"
+                "file": "README.md"
               }
             }
           },
@@ -173,15 +172,15 @@
   },
   "active": "8bc201ade27b3f1d",
   "lastOpenFiles": [
-    "HTTP, 네트워크/Servlet, Servlet Container, ServletContext, WebApplicationContext.md",
-    "자바/Collections.singleton.md",
-    "Spring Security/GrantedAuthority.md",
     "OAuth/DefaultOAuth2UserService.md",
+    "README.md",
+    "자바/Collections.singleton.md",
+    "HTTP, 네트워크/Servlet, Servlet Container, ServletContext, WebApplicationContext.md",
+    "Spring Security/GrantedAuthority.md",
     "JWT/JWT.md",
     "JWT/토큰 기반 인증의 특징.md",
     "OAuth",
     "Spring/Spring - objectMapper.md",
-    "README.md",
     "Spring Security/UserDeatils & GrantedAuthority.md",
     "Spring Security/인증 처리.md",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
