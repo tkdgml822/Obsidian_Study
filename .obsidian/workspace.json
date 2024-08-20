@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "HTTP, 네트워크/Servlet, Servlet Container, ServletContext.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8bc201ade27b3f1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JWT/JWT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e74a74d92b46fad6",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "JWT/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "JWT/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "JWT/JWT.md"
               }
             }
           },
@@ -142,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +171,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "0d5bfa101014b369",
+  "active": "8bc201ade27b3f1d",
   "lastOpenFiles": [
+    "JWT/토큰 기반 인증의 특징.md",
+    "OAuth/DefaultOAuth2UserService.md",
+    "HTTP, 네트워크/Servlet, Servlet Container, ServletContext.md",
+    "OAuth",
     "Spring/Spring - objectMapper.md",
     "README.md",
     "Spring Security/UserDeatils & GrantedAuthority.md",
@@ -165,7 +184,6 @@
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "JWT/JWT.md",
     "JWT/토큰 유효기간.md",
-    "JWT/토큰 기반 인증의 특징.md",
     "Spring Security/image/인증처리과정.png",
     "JWT/image/리프레시_토큰.png",
     "JWT/image",
@@ -194,15 +212,12 @@
     "자바/동일성 동등성.md",
     "HTTP, 네트워크/TCP, UDP.md",
     "HTTP, 네트워크/SSL이란?.md",
-    "HTTP, 네트워크/TSL이란?.md",
     "HTTP, 네트워크/images/TCP6.png",
     "HTTP, 네트워크/images/TCP5.png",
     "HTTP, 네트워크/images/TCP4.png",
     "HTTP, 네트워크/images/TCP3.png",
     "HTTP, 네트워크/images/TCP2.png",
     "HTTP, 네트워크/images/TCP1.png",
-    "HTTP, 네트워크/images",
-    "자바/클래스의 상속2 오버라이딩.md",
-    "Spring/images"
+    "HTTP, 네트워크/images"
   ]
 }

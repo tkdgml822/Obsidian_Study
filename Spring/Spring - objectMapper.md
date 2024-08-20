@@ -68,5 +68,5 @@ public class MangKyuRequest {
 ```
 @ModelAttrubute 사용이 필요하면 @Setter까지 넣어주면 된다.
 
-출처: [https://mangkyu.tistory.com/223](https://mangkyu.tistory.com/223) [MangKyu's Diary:티스토리]
+출처: [https://mangkyu.tistory.com/223](https://mangkyu.tistory.com/223) [MangKyu's Diary:티스토리] </br>
 출처: [https://escapefromcoding.tistory.com/341](https://escapefromcoding.tistory.com/341)[너도 나도 함계 성장하자:티스토리]
