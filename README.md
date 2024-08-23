@@ -43,7 +43,7 @@
 # 스프링 시큐리티
 [인증 처리 과정](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/%EC%9D%B8%EC%A6%9D%20%EC%B2%98%EB%A6%AC.md)</br>
 [UserDeatils & GrantedAuthority](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/UserDeatils%20%26%20GrantedAuthority.md) </br>
-[Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제] (https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/Spring%20Security%20OAuth2%20%EA%B5%AC%ED%98%84%EC%A4%91%20Google%20Login%20OAuth2UserCustomService%20%EB%A1%9C%EC%A7%81%20%EB%8F%99%EC%9E%91%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md) </br>
+[Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/Spring%20Security%20OAuth2%20%EA%B5%AC%ED%98%84%EC%A4%91%20Google%20Login%20OAuth2UserCustomService%20%EB%A1%9C%EC%A7%81%20%EB%8F%99%EC%9E%91%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md)</br>
 # HTTP, 네트워크
 [SSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/SSL%EC%9D%B4%EB%9E%80%3F.md)</br>
 [TSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TSL%EC%9D%B4%EB%9E%80%3F.md)</br>
