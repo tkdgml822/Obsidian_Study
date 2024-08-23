@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md"
               }
             }
           },
@@ -170,18 +170,20 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "8bc201ade27b3f1d",
+  "active": "f45f14da1b5d2393",
   "lastOpenFiles": [
-    "OAuth/DefaultOAuth2UserService.md",
-    "README.md",
-    "자바/Collections.singleton.md",
     "HTTP, 네트워크/Servlet, Servlet Container, ServletContext, WebApplicationContext.md",
+    "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md",
+    "무제 파일.md",
+    "Spring Security/UserDeatils & GrantedAuthority.md",
+    "README.md",
+    "OAuth/DefaultOAuth2UserService.md",
+    "자바/Collections.singleton.md",
     "Spring Security/GrantedAuthority.md",
     "JWT/JWT.md",
     "JWT/토큰 기반 인증의 특징.md",
     "OAuth",
     "Spring/Spring - objectMapper.md",
-    "Spring Security/UserDeatils & GrantedAuthority.md",
     "Spring Security/인증 처리.md",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "JWT/토큰 유효기간.md",
@@ -209,8 +211,6 @@
     "자바/hashCode.md",
     "자바/Dynamic Proxy.md",
     "자바/images/java-string-pool.png",
-    "자바/컬렉션 프레임워크 2.md",
-    "자바/동일성 동등성.md",
     "HTTP, 네트워크/images/TCP6.png",
     "HTTP, 네트워크/images/TCP5.png",
     "HTTP, 네트워크/images/TCP4.png",
