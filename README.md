@@ -35,7 +35,7 @@
 [equals](https://github.com/tkdgml822/Obsidian_Study/blob/main/자바/equals.md) </br>
 [동일성과 동등성](https://github.com/tkdgml822/Obsidian_Study/blob/main/자바/동일성과%20동등성.md)</br>
 [HashMap 자세히 살펴보기(아직 덜 적음)](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EC%9E%90%EB%B0%94/HashMap%20%EC%9E%90%EC%84%B8%ED%9E%88%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0(%EC%95%84%EC%A7%81%20%EB%8D%9C%20%EC%A0%81%EC%9D%8C).md)</br>
-
+[Collections.singleton이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EC%9E%90%EB%B0%94/Collections.singleton.md) </br>
 # 스프링
 [검증 처리 - 입력한 내용이 유지 되는 이유](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring/%EA%B2%80%EC%A6%9D%20%EC%B2%98%EB%A6%AC%20-%20%EC%9E%85%EB%A0%A5%ED%95%9C%20%EB%82%B4%EC%9A%A9%EC%9D%B4%20%EC%9C%A0%EC%A7%80%20%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md) </br>
 [ObjectMapper란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring/Spring%20-%20objectMapper.md)</br>
@@ -43,7 +43,7 @@
 # 스프링 시큐리티
 [인증 처리 과정](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/%EC%9D%B8%EC%A6%9D%20%EC%B2%98%EB%A6%AC.md)</br>
 [UserDeatils & GrantedAuthority](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/UserDeatils%20%26%20GrantedAuthority.md) </br>
-
+[Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제] (https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring%20Security/Spring%20Security%20OAuth2%20%EA%B5%AC%ED%98%84%EC%A4%91%20Google%20Login%20OAuth2UserCustomService%20%EB%A1%9C%EC%A7%81%20%EB%8F%99%EC%9E%91%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md) </br>
 # HTTP, 네트워크
 [SSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/SSL%EC%9D%B4%EB%9E%80%3F.md)</br>
 [TSL이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/HTTP%2C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TSL%EC%9D%B4%EB%9E%80%3F.md)</br>
