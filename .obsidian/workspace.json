@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
+                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
+                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
+                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md"
+                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md"
               }
             }
           },
@@ -160,18 +160,21 @@
   },
   "active": "60944796dbd66764",
   "lastOpenFiles": [
-    "Pasted image 20240828181310.png",
-    "Pasted image 20240827212718.png",
-    "google.png",
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
+    "JWT + Spring Security + OAuth2.0/images/Pasted image 20240827212718.png",
     "JWT + Spring Security + OAuth2.0/images/JWT.png",
-    "![Cookie인증.md",
-    "JWT + Spring Security + OAuth2.0/images/Session인증방식.png",
-    "JWT + Spring Security + OAuth2.0/images/Cookie인증.png",
     "JWT + Spring Security + OAuth2.0/images/Pasted image 20240823215029.png",
-    "JWT + Spring Security + OAuth2.0/images",
+    "JWT + Spring Security + OAuth2.0/images/Pasted image 20240828181310.png",
+    "JWT + Spring Security + OAuth2.0/images/Session인증방식.png",
+    "JWT + Spring Security + OAuth2.0/images/application-yml-image.png",
+    "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
+    "JWT + Spring Security + OAuth2.0/images/스크린샷 2024-08-28 오후 8.18.37.png",
+    "README.md",
     "무제 파일.md",
-    "JWT + Spring Security + OAuth2.0/무제 파일.md",
+    "google.png",
+    "![Cookie인증.md",
+    "JWT + Spring Security + OAuth2.0/images/Cookie인증.png",
+    "JWT + Spring Security + OAuth2.0/images",
     "JWT + Spring Security + OAuth2.0",
     "OAuth/DefaultOAuth2UserService.md",
     "Spring Security/인증 처리.md",
@@ -180,8 +183,6 @@
     "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md",
     "HTTP, 네트워크/Servlet, Servlet Container, ServletContext, WebApplicationContext.md",
     "Pasted image 20240823183024.png",
-    "Pasted image 20240823183300.png",
-    "README.md",
     "자바/Collections.singleton.md",
     "JWT/JWT.md",
     "JWT/토큰 기반 인증의 특징.md",
@@ -189,8 +190,6 @@
     "Spring/Spring - objectMapper.md",
     "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
     "JWT/토큰 유효기간.md",
-    "Spring Security/image/인증처리과정.png",
-    "JWT/image/리프레시_토큰.png",
     "JWT/image",
     "JWT",
     "Spring Security/image",

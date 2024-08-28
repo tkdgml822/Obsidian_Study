@@ -61,3 +61,6 @@
 
 # OAuth2
 [DefaultOAuth2UserService이란](https://github.com/tkdgml822/Obsidian_Study/blob/main/OAuth/DefaultOAuth2UserService.md#defaultoauth2userservice%EC%9D%B4%EB%9E%80)</br>
+
+# JWT + Spring Security + OAuth2.0
+[JWT + Spring Security + OAuth2.0 (1)](https://github.com/tkdgml822/Obsidian_Study/blob/main/JWT%20%2B%20Spring%20Security%20%2B%20OAuth2.0/JWT%20%2B%20Spring%20Security%20%2B%20OAuth2.0%20(1).md) </br>
