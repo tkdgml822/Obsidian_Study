@@ -311,6 +311,7 @@ Authorized redirect URLs https://clien/callback
 ## Resource owner 승인 과정
 ![로그인 과정](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHGu3i%2Fbtq2kqQrO28%2FytMUrO1opx8UJyCKOfROBK%2Fimg.png)
 `1.` 사용자(Resource owner)는 서비스(client)를 이용하기 위해 로그인 페이지에 접근한다.
+
 `2.` 그럼 서비스(client)는 사용자(Resource Owner)에게 로그인 페이지를 제공하게 된다.
 <p align="center">
 	<img src="https://velog.velcdn.com/images/psi1908/post/e2b7b5a4-19d1-4bcd-9318-3b73e013f125/image.jpg">
@@ -338,7 +339,9 @@ client_id=1 # 2
 향후 **redirect_uri 경로를 통해서 Resource Server는 client에게 임시비밀번호인 Authorization code를 제공**한다.
 
 `4.` 클라이언트로부터 보낸 정보와, 리소스 로그인 서버에 등록된 서비스 정보를 비교한다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPB3VN%2FbtrmY4AwK5T%2FKsqtnPQhFKHZeNJVTtvJ70%2Fimg.png)
+
 `4.1 `확인 완료되면, Resource Server로 부터 전용 로그인 페이지로 이동하여 사용자에게 보여준다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcpjfWD%2Fbtrm55Y808m%2FrjXpMObkIJGs8SK6xby7wK%2Fimg.png)
+
 `5.` ID/PW를 적어서 로그인을 하게되면, client가 사용하려는 기능(scope)에 대해 Resource Owner의 동의(승인)을 요청한다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMlJcU%2FbtrmY5faq0w%2FIQKSYMkTAtI1ZSOJ69wXPk%2Fimg.png)
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJKj0t%2FbtrmXVKLK1H%2Fu561A1jkFE76KT27lbDhuK%2Fimg.png)
 
@@ -351,10 +354,13 @@ client_id=1 # 2
    - Redirect URL: client와 통신할 통로
    - user id: client와 연결된 Resource Owner의 id
    - scope: client가 Resource Owner 대신에 사용할 기능들
+
 `6.` 하지만, 이미 Owner가 Client에게 권한 승인을 했더라도 아직 Server가 허락하지 않았다. 따라서, Resource Server 도 Client에게 권한 승인을 하기위해 Authorization code를 Redirect URL을 통해 사용자에게 응답하고
+\
 `7.` 다시 사용자는 그대로 Client에게 다시 보낸다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpgSKW%2Fbtrm82ukE4o%2FgZI1nvkaGFKWdutuGV5x3k%2Fimg.png)
    
 이를 통해, client는 Resource Server가 보낸 Authorization code, "code=3"를 Resource Owner통해 받는다.
+
 `8.` 이제 Client가 Resource Server에게 직접 url(클라이언드 아이디, 비번, 인증코드 ...등)을 보낸다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXz5c6%2Fbtrm2oLRKIE%2F616LjfGfUDPNcKrzTK4ep0%2Fimg.png)
 
 `9. `그럼 Resource Server는 Client가 전달한 정보들을 비교해서 일치한다면, Access Token을 발급한다. 그리고 이제 필요없어진 **Authorization code는 지운다.**
@@ -366,7 +372,7 @@ client_id=1 # 2
 
 
 
-참고
+참고 </br>
 https://dev-coco.tistory.com/174</br>
 https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-JWTjson-web-token-%EB%9E%80-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC</br>
 https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-OAuth-20-%EA%B0%9C%EB%85%90-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC</br>
