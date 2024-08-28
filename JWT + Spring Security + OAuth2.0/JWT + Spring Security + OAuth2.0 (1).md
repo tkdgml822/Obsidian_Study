@@ -24,8 +24,8 @@
 
 | 이름                                       | 설명                                                                                                                                             |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| SecurityContextPersistenceFilter        | SecurityContextRepository에서 SecurityContext(접근 주체와 인증에 대한 정보를 담고 있는 객체)를 가져오거나 저장하는 역할                                                         |
-| LogoutFilter                            | 설정된 로그아웃 URL로 오는 요청을 확인해 해당 사용자를 로그아웃 처리                                                                                                       |
+| SecurityContextPersistenceFilter         | SecurityContextRepository에서 SecurityContext(접근 주체와 인증에 대한 정보를 담고 있는 객체)를 가져오거나 저장하는 역할                                                         |
+| LogoutFilter                             | 설정된 로그아웃 URL로 오는 요청을 확인해 해당 사용자를 로그아웃 처리                                                                                                       |
 | **UsernamePasswordAuthenticationFIlter** | 인증 관리자, 폼 기반 로그인을 할 때 사용되는 필터로 아이디, 패스워드 데이터를 파싱해 인증 요청을 위임, 인증 성공시 AuthenticationSuccessHandler를, 실패 시 AuthenticationFailureHandler를 실행       |
 | DefaultLoginPageGeneratingFilter         | 사용자가 로그인 페이지를 지정하지 않았을 때 기본으로 설정하는 로그인 페이지 관련 필터                                                                                               |
 | BasicAuthenticationFilter                | 요청 헤더에 있는 아이디와 패스워드를 파싱해서 인증 요청을 위임합니다. 인증이 성공하면 AuthenticationSuccessHandler를, 인증에 실패하면 AuthenticationFailureHandler를 실행                      |
@@ -356,9 +356,11 @@ client_id=1 # 2
    
 이를 통해, client는 Resource Server가 보낸 Authorization code, "code=3"를 Resource Owner통해 받는다.
 `8.` 이제 Client가 Resource Server에게 직접 url(클라이언드 아이디, 비번, 인증코드 ...등)을 보낸다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXz5c6%2Fbtrm2oLRKIE%2F616LjfGfUDPNcKrzTK4ep0%2Fimg.png)
+
 `9. `그럼 Resource Server는 Client가 전달한 정보들을 비교해서 일치한다면, Access Token을 발급한다. 그리고 이제 필요없어진 **Authorization code는 지운다.**
 `10.` 그렇게 토큰을 받은 Client는 사용자에게 최종적으로 로그인이 완료되었다고 응답한다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGUsu2%2Fbtrm5zsB4sG%2FkNJob33QomLyGEPdZIzDc1%2Fimg.png)
 `11 ~ 14.` 이제 client는 Resource server의 api를 요청해 Resource Owner의 ID 혹은 프로필 정보를 사용할 수 있다.
+
 `15.` Access Token이 기간이 만료되어 401에러가 나면, Refresh Token을 통해  Access Token을 재발급 한다.
 
 
