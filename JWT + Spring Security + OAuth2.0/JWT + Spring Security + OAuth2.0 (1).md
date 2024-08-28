@@ -282,6 +282,7 @@ Spring환경에서 CommonOAuth2Provider을 보면 `builder.scope(new String[]{"o
 	<cite>https://theonetechnologies.com/blog/post/how-to-get-google-app-client-id-and-client-secret</cite>
 </p>
 Clien ID, Clien Secret, Authorized redirect URLs는 서비스를 등록하면 받게되는 필수 요소는 다음과 같다.
+
 ```text
 Createp app
 -------------------------------------
