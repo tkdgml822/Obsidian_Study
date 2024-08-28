@@ -109,6 +109,7 @@ Interceptor는 Dispatcher와 Controller 사이에 위치한다는 점에서 적�
 
 # 🔒 JWT(JSON Web Token)
 ![JWT-image](https://img1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/dkta/image/mZyUgQW1H1vk_TFaK2FZbvZqyBM.png)
+
 JWT이란 인증에 필요한 정보들을 암호화시킨 JSON 토큰을 의미한다. JWT 토큰을 HTTP 헤더에 실어 서버가 클라이언트를 식별한다.
 
 JWT는 JSON 데이터를 Base64 URL-safe Encode를 통해 인토딩하여 직렬화한 것이다. 토큰 내부에서는 위변조 방지를 위해 개인키를 통한 전자서명도 들어가 있다.
@@ -340,6 +341,7 @@ client_id=1 # 2
 `4.1 `확인 완료되면, Resource Server로 부터 전용 로그인 페이지로 이동하여 사용자에게 보여준다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcpjfWD%2Fbtrm55Y808m%2FrjXpMObkIJGs8SK6xby7wK%2Fimg.png)
 `5.` ID/PW를 적어서 로그인을 하게되면, client가 사용하려는 기능(scope)에 대해 Resource Owner의 동의(승인)을 요청한다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMlJcU%2FbtrmY5faq0w%2FIQKSYMkTAtI1ZSOJ69wXPk%2Fimg.png)
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJKj0t%2FbtrmXVKLK1H%2Fu561A1jkFE76KT27lbDhuK%2Fimg.png)
+
 `5.1` Resource Owner가 Allow 버튼을 누르면 Resource Owner가 권한을 위임했다는 승인이 Resource Server 에 전달된다. 
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnXxv2%2FbtrmYFOzP0Q%2FNK9Znt2W0oGyQhi9Y41Z20%2Fimg.png)
    
