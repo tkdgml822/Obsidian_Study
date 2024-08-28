@@ -108,7 +108,7 @@ Interceptor는 Dispatcher와 Controller 사이에 위치한다는 점에서 적�
 3. 토큰을 탈취 당하면 대체하기 어렵다. (이를 방지하는 방법으로 사용 기간 제한을 설정하는 식으로 극복한다.)
 
 # 🔒 JWT(JSON Web Token)
-![[Pasted image 20240823215029.png]]
+![JWT-image](https://img1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/dkta/image/mZyUgQW1H1vk_TFaK2FZbvZqyBM.png)
 JWT이란 인증에 필요한 정보들을 암호화시킨 JSON 토큰을 의미한다. JWT 토큰을 HTTP 헤더에 실어 서버가 클라이언트를 식별한다.
 
 JWT는 JSON 데이터를 Base64 URL-safe Encode를 통해 인토딩하여 직렬화한 것이다. 토큰 내부에서는 위변조 방지를 위해 개인키를 통한 전자서명도 들어가 있다.
