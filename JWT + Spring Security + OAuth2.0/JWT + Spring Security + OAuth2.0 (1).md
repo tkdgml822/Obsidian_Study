@@ -358,6 +358,7 @@ client_id=1 # 2
 `8.` 이제 Client가 Resource Server에게 직접 url(클라이언드 아이디, 비번, 인증코드 ...등)을 보낸다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXz5c6%2Fbtrm2oLRKIE%2F616LjfGfUDPNcKrzTK4ep0%2Fimg.png)
 
 `9. `그럼 Resource Server는 Client가 전달한 정보들을 비교해서 일치한다면, Access Token을 발급한다. 그리고 이제 필요없어진 **Authorization code는 지운다.**
+
 `10.` 그렇게 토큰을 받은 Client는 사용자에게 최종적으로 로그인이 완료되었다고 응답한다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGUsu2%2Fbtrm5zsB4sG%2FkNJob33QomLyGEPdZIzDc1%2Fimg.png)
 `11 ~ 14.` 이제 client는 Resource server의 api를 요청해 Resource Owner의 ID 혹은 프로필 정보를 사용할 수 있다.
 
