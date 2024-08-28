@@ -309,13 +309,13 @@ Authorized redirect URLs https://clien/callback
 
 ## Resource owner 승인 과정
 ![로그인 과정](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHGu3i%2Fbtq2kqQrO28%2FytMUrO1opx8UJyCKOfROBK%2Fimg.png)
-1. 사용자(Resource owner)는 서비스(client)를 이용하기 위해 로그인 페이지에 접근한다.
-2. 그럼 서비스(client)는 사용자(Resource Owner)에게 로그인 페이지를 제공하게 된다.
+`1.` 사용자(Resource owner)는 서비스(client)를 이용하기 위해 로그인 페이지에 접근한다.
+`2.` 그럼 서비스(client)는 사용자(Resource Owner)에게 로그인 페이지를 제공하게 된다.
 <p align="center">
 	<img src="https://velog.velcdn.com/images/psi1908/post/e2b7b5a4-19d1-4bcd-9318-3b73e013f125/image.jpg">
 </p>
 
-3. 사용자가 소셜 로그인 버튼을 누르면, 해당(Google, Meta) 서버로 특정 url 보내지게 된다.
+`3.` 사용자가 소셜 로그인 버튼을 누르면, 해당(Google, Meta) 서버로 특정 url 보내지게 된다.
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdggOEd%2Fbtrm2oE3fnt%2FS6mh4UBxj5y8zK7rdOszsk%2Fimg.png)
 >등록을 하게 되면 Client(내 서비스)와 Resource Server(Google 서버)에 Client id, Client Secret은 둘이 서로 알고 있는 상황
 
@@ -336,26 +336,28 @@ client_id=1 # 2
 - 개발자 홈페이지에 서비스 개발자 입력한 응답 콜백
 향후 **redirect_uri 경로를 통해서 Resource Server는 client에게 임시비밀번호인 Authorization code를 제공**한다.
 
-4. 클라이언트로부터 보낸 정보와, 리소스 로그인 서버에 등록된 서비스 정보를 비교한다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPB3VN%2FbtrmY4AwK5T%2FKsqtnPQhFKHZeNJVTtvJ70%2Fimg.png)
-4. 1 확인 완료되면, Resource Server로 부터 전용 로그인 페이지로 이동하여 사용자에게 보여준다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcpjfWD%2Fbtrm55Y808m%2FrjXpMObkIJGs8SK6xby7wK%2Fimg.png)
-5. ID/PW를 적어서 로그인을 하게되면, client가 사용하려는 기능(scope)에 대해 Resource Owner의 동의(승인)을 요청한다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMlJcU%2FbtrmY5faq0w%2FIQKSYMkTAtI1ZSOJ69wXPk%2Fimg.png)
+`4.` 클라이언트로부터 보낸 정보와, 리소스 로그인 서버에 등록된 서비스 정보를 비교한다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPB3VN%2FbtrmY4AwK5T%2FKsqtnPQhFKHZeNJVTtvJ70%2Fimg.png)
+`4.1 `확인 완료되면, Resource Server로 부터 전용 로그인 페이지로 이동하여 사용자에게 보여준다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcpjfWD%2Fbtrm55Y808m%2FrjXpMObkIJGs8SK6xby7wK%2Fimg.png)
+`5.` ID/PW를 적어서 로그인을 하게되면, client가 사용하려는 기능(scope)에 대해 Resource Owner의 동의(승인)을 요청한다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMlJcU%2FbtrmY5faq0w%2FIQKSYMkTAtI1ZSOJ69wXPk%2Fimg.png)
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJKj0t%2FbtrmXVKLK1H%2Fu561A1jkFE76KT27lbDhuK%2Fimg.png)
-5. 1 Resource Owner가 Allow 버튼을 누르면 Resource Owner가 권한을 위임했다는 승인이 Resource Server 에 전달된다. 
+`5.1` Resource Owner가 Allow 버튼을 누르면 Resource Owner가 권한을 위임했다는 승인이 Resource Server 에 전달된다. 
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnXxv2%2FbtrmYFOzP0Q%2FNK9Znt2W0oGyQhi9Y41Z20%2Fimg.png)
+   
    리소스 서버가 가지는 정보는 다음과 같다.
    - Client id: Resource Owner와 연결된 client가 누군지
    - Client Secret: Resource Owner와 연결된 client의 비밀번호
    - Redirect URL: client와 통신할 통로
    - user id: client와 연결된 Resource Owner의 id
    - scope: client가 Resource Owner 대신에 사용할 기능들
-6. 하지만, 이미 Owner가 Client에게 권한 승인을 했더라도 아직 Server가 허락하지 않았다. 따라서, Resource Server 도 Client에게 권한 승인을 하기위해 Authorization code를 Redirect URL을 통해 사용자에게 응답하고
-7. 다시 사용자는 그대로 Client에게 다시 보낸다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpgSKW%2Fbtrm82ukE4o%2FgZI1nvkaGFKWdutuGV5x3k%2Fimg.png)
-   이를 통해, client는 Resource Server가 보낸 Authorization code, "code=3"를 Resource Owner통해 받는다.
-8. 이제 Client가 Resource Server에게 직접 url(클라이언드 아이디, 비번, 인증코드 ...등)을 보낸다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXz5c6%2Fbtrm2oLRKIE%2F616LjfGfUDPNcKrzTK4ep0%2Fimg.png)
-9. **그럼 Resource Server는 Client가 전달한 정보들을 비교해서 일치한다면, Access Token을 발급한다. 그리고 이제 필요없어진 **Authorization code는 지운다.**
-10. 그렇게 토큰을 받은 Client는 사용자에게 최종적으로 로그인이 완료되었다고 응답한다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGUsu2%2Fbtrm5zsB4sG%2FkNJob33QomLyGEPdZIzDc1%2Fimg.png)
-   11 ~ 14. 이제 client는 Resource server의 api를 요청해 Resource Owner의 ID 혹은 프로필 정보를 사용할 수 있다.
-15. Access Token이 기간이 만료되어 401에러가 나면, Refresh Token을 통해  Access Token을 재발급 한다.
+`6.` 하지만, 이미 Owner가 Client에게 권한 승인을 했더라도 아직 Server가 허락하지 않았다. 따라서, Resource Server 도 Client에게 권한 승인을 하기위해 Authorization code를 Redirect URL을 통해 사용자에게 응답하고
+`7.` 다시 사용자는 그대로 Client에게 다시 보낸다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpgSKW%2Fbtrm82ukE4o%2FgZI1nvkaGFKWdutuGV5x3k%2Fimg.png)
+   
+이를 통해, client는 Resource Server가 보낸 Authorization code, "code=3"를 Resource Owner통해 받는다.
+`8.` 이제 Client가 Resource Server에게 직접 url(클라이언드 아이디, 비번, 인증코드 ...등)을 보낸다. ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXz5c6%2Fbtrm2oLRKIE%2F616LjfGfUDPNcKrzTK4ep0%2Fimg.png)
+`9. `그럼 Resource Server는 Client가 전달한 정보들을 비교해서 일치한다면, Access Token을 발급한다. 그리고 이제 필요없어진 **Authorization code는 지운다.**
+`10.` 그렇게 토큰을 받은 Client는 사용자에게 최종적으로 로그인이 완료되었다고 응답한다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGUsu2%2Fbtrm5zsB4sG%2FkNJob33QomLyGEPdZIzDc1%2Fimg.png)
+`11 ~ 14.` 이제 client는 Resource server의 api를 요청해 Resource Owner의 ID 혹은 프로필 정보를 사용할 수 있다.
+`15.` Access Token이 기간이 만료되어 401에러가 나면, Refresh Token을 통해  Access Token을 재발급 한다.
 
 
 
