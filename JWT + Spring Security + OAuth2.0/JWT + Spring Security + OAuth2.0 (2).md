@@ -229,81 +229,26 @@ public Authentication getAuthentication(String token) {
 
 > SimpleGrantedAuthority이란? 문자열을 생성자 파라미터에 넣는주는 것만으로 권한 객체 생성을 할 수 있게 해준다. 이름 그대로 간단하게 권한을 설정해준다.
 
-그리고 마지막 코드줄을 보면
+그리고 마지막 코드줄을 보면 `UsernamePasswordAuthenticationToken`을 반환하는데`UsernamePasswordAuthenticationToken`을 간단히 말하면 사용자가 폼 로그인 시`AuthenticationFilter`가 `UsernamePasswordAuthenticationToken`의 인증용 객체를 만들어주는데 추후 `ProviderManager`에게 `UserNamePasswordToken` 객체를 전달하는 역할을 하는데 그런 다음 추후 인증을 완전히 마치게 되면 `SecurityContextHolder`에 넣어줍니다.
 
-```
-UsernamePasswordAuthenticationToken
-```
+![Authentication.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbI0QcI%2FbtrG8ILcEMI%2FXaAIOnJsXqCaPuuzEgicHk%2Fimg.jpg)
 
-을 반환하는데
+참고로 `SecurityContextHolder`에는 `Authentication`가 들어가는데`UsernamePasswordAuthenticationToken` 같은 경우는 `Authentication`의 자식입니다.
 
-```
-UsernamePasswordAuthenticationToken
-```
-
-을 간단히 말하면 사용자가 폼 로그인 시
-
-```
-AuthenticationFilter
+```java
+public class UsernamePasswordAuthenticationToken extends AbstractAuthenticationToken {
+	// ....
+}
 ```
 
-가
+`UsernamePasswordAuthenticationToken`은 `AbstractAuthenticationToken`을 상속받았다.
 
+```java
+public abstract class AbstractAuthenticationToken implements Authentication, CredentialsContainer {
+	// ....
+}
 ```
-UsernamePasswordAuthenticationToken
-```
-
-의 인증용 객체를 만들어주는데 추후
-
-```
-ProviderManager
-```
-
-에게
-
-```
-UserNamePasswordToken
-```
-
-객체를 전달하는 역할을 하는데 그런 다음 추후 인증을 완전히 마치게 되면
-
-```
-SecurityContextHolder
-```
-
-에 넣어줍니다.
-
-![./images/Authentication.png](./images/Authentication.png)
-
-참고로
-
-```
-SecurityContextHolder
-```
-
-에는
-
-```
-Authentication
-```
-
-가 들어가는데
-
-```
-UsernamePasswordAuthenticationToken
-```
-
-같은 경우는
-
-```
-Authentication
-```
-
-의 자식입니다..
-
-![./images/UsernamePasswordAuthenticationToken.png](./images/UsernamePasswordAuthenticationToken.png)
-
-![./images/AbstractAuthenticationToken.png](./images/AbstractAuthenticationToken.png)
+`AbstractAuthenticationToken`같은 경우는 `Authentication`을 상속받았다. 그러므로 `SecurityContext`에 들어갈 수 있다.
 
 `UsernamePasswordAuthenticationToken` <- `AbstractAuthenticationToken` <- `Authentication`, `CredentialsContainer
 
@@ -478,16 +423,118 @@ public class RefreshToken {
 - `@NoArgsConstructor(access = AccessLevel.PROTECTED)`: `@NoArgsConstructor`을 쓰면 빈 생성자를 만들어준다. `access = AccessLevel.PROTECTED`같은 경우에는 생성자의 접근 수준이 `protected`로 설정된다.
 - `@Getter`, `@Entity`: `@Getter`클래스에 Getter을 만들어줍니다. 예를 들어 name이 있으면 `getName()`을 자동으로 만들어줍니다. `@Entity`같은 경우는 JPA에서 엔티티라고 임을 나타냅니다.
 
-```java
-@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", updatable = false)
-    private Long id;
-
-```
-
 > access = AccessLevel.PROTECTED로 접근 권한을 protected로 하는 이유는 JPA에서 Proxy 객체 때문이다. 기본 생성자를 통해 프록시 객체를 사용하는데 private으로 하면 프록시 객체를 생성할 수 없다.
 
-참고 글 [내가 @NoArgsConstructor (access = AccessLevel.PROTECTED)를 작성했던 이유](https://velog.io/@kevin_/%EB%82%B4%EA%B0%80-NoargsConstructor-access-AccessLevel.PROTECTED%EB%A5%BC-%EC%99%9C-%EC%9E%91%EC%84%B1%ED%96%88%EC%9D%84%EA%B9%8C)[[JPA] 프록시란?](https://ict-nroo.tistory.com/131)
+참고 글
+[내가 @NoArgsConstructor (access = AccessLevel.PROTECTED)를 작성했던 이유](https://velog.io/@kevin_/%EB%82%B4%EA%B0%80-NoargsConstructor-access-AccessLevel.PROTECTED%EB%A5%BC-%EC%99%9C-%EC%9E%91%EC%84%B1%ED%96%88%EC%9D%84%EA%B9%8C)</br>
+[[JPA] 프록시란?](https://ict-nroo.tistory.com/131)
 
-참고 [스프링의 @ConfigurationProperites 의 정확한 사용법, properties 읽어오기](https://blog.yevgnenll.me/posts/spring-configuration-properties-fetch-application-properties)[[Java8 Time API] Duration과 Period 사용법 (+ChronoUnit)](https://www.daleseo.com/java8-duration-period/)[Spring Boot 기반으로 개발하는 Spring Security: 인증 개념 이해 - Authentication](https://whitewise95.tistory.com/279)[Spring Security의 계정 클래스와 권한 클래스 설계](https://zgundam.tistory.com/49)[[Spring Boot] OncePerRequestFilter란?](https://junyharang.tistory.com/378)[내가 @NoArgsConstructor (access = AccessLevel.PROTECTED)를 작성했던 이유](https://velog.io/@kevin_/%EB%82%B4%EA%B0%80-NoargsConstructor-access-AccessLevel.PROTECTED%EB%A5%BC-%EC%99%9C-%EC%9E%91%EC%84%B1%ED%96%88%EC%9D%84%EA%B9%8C)[[JPA] 프록시란?](https://ict-nroo.tistory.com/131)
+
+```java
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+@Column(name = "id", updatable = false)
+private Long id;
+
+```
+- `@Id` : Primary키를 설정하는 키입니다.
+- `@GeneratedValue(strategy = GenerationType.IDENTITY)`: 자동으로 값이 증가하는 설정입니다. 값이 들어가면 인덱스가 1씩 증가 합니다.
+- `@Column(name = "id", updatable = false)`: `@Column`같은 경우는 특정 컬럼 매핑 및 여러가지 기능을 사용할 수 있는 어노테이션입니다. `name = id` 이 속성은 데이터베이스 테이블에서 매핑될 컬럼의 이름을 지정합니다. 
+- `updatable = false` 이 속성은 해당 필드가 데이터베이스에 저장된 후  업데이트할 수 있는지 지정합니다. false로 설정하면 데이터베이스에 저장한 후에는 수정할 수 없습니다. 좀더 간단히 말하면 **updateable**은  update 시점에 막는 기능입니다.
+```java
+@Column(name = "user_id", nullable = false, unique = true)
+private Long userId;
+
+@Column(name = "refresh_token", nullable = false)
+private String refreshToken;
+```
+다음은 `userId`, `refresh_token`입니다.
+- `userId`: 테이블에서 매핑할 컬럼 이름명은 `user_id`입니다. 그리고 `nullable = false`로 했는데 `Not Null`로 해주겠다는 뜻입니다.
+  `unique = true`같은 경우는 `userId`의 값을 중복 처리 받지 않겠다 라는 뜻이다.
+- `refreshToken`: 매핑할 컬럼의 이름은 `refresh_token`입니다. 그리고 값은 `Not Null`입니다.
+
+```java
+public RefreshToken(Long userId, String refreshToken) {  
+    this.userId = userId;  
+    this.refreshToken = refreshToken;  
+}  
+  
+public RefreshToken update(String newRefreshToken) {  
+    this.refreshToken = newRefreshToken;  
+    return this;  
+}
+```
+- `RefreshToken`: 생성자 입니다. Id 같은 경우는 자동생성이 되니깐 생성자에서 제외합니다.
+- `update`: 토큰을 업데이트 할때 쓰입니다.
+
+## RefreshTokenRepository
+```java
+@Repository
+public interface RefreshTokenRepository extends JpaRepository<RefreshToken, Long> {  
+    Optional<RefreshToken> findByUserId(Long userId);  
+    Optional<RefreshToken> findByRefreshToken(String refreshToken);  
+}
+```
+JpaRepository을 상속받으면 JPA에서는 간단히 CRUD를 제공해줍니다. 
+
+- `findByUserId`: `RefreshToken`테이블에서 userId을 가져옵니다.
+- `findByRefreshToken`: 테이블에서 refreshToken을 가져옵니다.
+
+> `@Repository`은 적어도 안 적어도 됩니다. JpaRepository을 상속받으면 JPA에서 자동으로 Repository 인식해서 `IoC` 등록이 됩니다. 그래도 저는 적는 편이 좋은거 같습니다. 
+> 예를 들자면 JPA를 모르지만 Spring을 기가 막히게 잘하는 개발자가 이 코드를 본다고 하면 JPA에 대해 모르지만 `@Repository` 어노테이션을 보면 바로 이 인터페이스가 하는 역할을 대충이라도 짐작할것입니다. 그러면 가독성이 올라가고 좋은 코드가 되겠죠?
+
+## RefreshTokenService
+```java
+@RequiredArgsConstructor  
+@Service  
+public class RefreshTokenService {  
+    private final RefreshTokenRepository refreshTokenRepository;  
+  
+    public RefreshToken findByRefreshToken(String refreshToken) {  
+        return refreshTokenRepository.findByRefreshToken(refreshToken)  
+                .orElseThrow(() -> new IllegalArgumentException("Unexpected token"));  
+    }  
+}
+```
+- DB에 있는 refreshToken을 가져옵니다. 만약 없을 경우 `IllegalArgumentException` 에러를 띄웁니다.
+## TokenService
+다음은 토큰 서비스입니다. 토큰 서비스는 주어진 리프레시 토큰의 유효성을 검증하고, 유효한 경우 새로운 액세스 토큰을 생성하는 역할을 합니다
+```java
+@RequiredArgsConstructor  
+@Service  
+public class TokenService {  
+  
+    private final TokenProvider tokenProvider;  
+    private final RefreshTokenService refreshTokenService;  
+    private final UserService userService;  
+  
+    public String createNewAccessToken(String refreshToken) {  
+        // 토큰 유효성 검사에 실패하면 예외 발생  
+        if (!tokenProvider.validToken(refreshToken)) {  
+            throw new IllegalArgumentException("Unexpected token");  
+        }  
+  
+        Long userId = refreshTokenService.findByRefreshToken(refreshToken).getUserId();  
+        User user = userService.findById(userId);  
+  
+        return tokenProvider.generateToken(user, Duration.ofHours(2));  
+    }  
+}
+```
+
+#### `createNewAccessToken`()
+새로운 AccessToken을 만들어주는 메서드 입니다.
+- `if (!tokenProvider.validToken(refreshToken))`: token을 검증합니다. 
+- `throw new IllegalArgumentException("Unexpected token")`: 검증을 실패하면 오류가 납니다.
+- `Long userId = refreshTokenService.findByRefreshToken(refreshToken).getUserId();`: 검증을 성공후 Token으로 userId를 가져옵니다.
+- `User user = userService.findById(userId)` : 유저의 Id를 찾았으니 실제 User 테이블에서 userId로 조회한 유저를 가져옵니다.
+- `return tokenProvider.generateToken(user, Duration.ofHours(2))`:  토큰을 생성하고 반환합니다.  토큰 만료 기간은 2시간으로 설정합니다.
+
+참고 
+[스프링의 @ConfigurationProperites 의 정확한 사용법, properties 읽어오기](https://blog.yevgnenll.me/posts/spring-configuration-properties-fetch-application-properties)</br>
+[[Java8 Time API] Duration과 Period 사용법 (+ChronoUnit)](https://www.daleseo.com/java8-duration-period/)</br>
+[Spring Boot 기반으로 개발하는 Spring Security: 인증 개념 이해 - Authentication](https://whitewise95.tistory.com/279)</br>
+[Spring Security의 계정 클래스와 권한 클래스 설계](https://zgundam.tistory.com/49)</br>
+[[Spring Boot] OncePerRequestFilter란?](https://junyharang.tistory.com/378)</br>
+[내가 @NoArgsConstructor (access = AccessLevel.PROTECTED)를 작성했던 이유](https://velog.io/@kevin_/%EB%82%B4%EA%B0%80-NoargsConstructor-access-AccessLevel.PROTECTED%EB%A5%BC-%EC%99%9C-%EC%9E%91%EC%84%B1%ED%96%88%EC%9D%84%EA%B9%8C)</br>
+[[JPA] 프록시란?](https://ict-nroo.tistory.com/131)

@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "60944796dbd66764",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3b404a2d240a3d9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
+                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e74a74d92b46fad6",
@@ -170,23 +157,23 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "60944796dbd66764",
+  "active": "f45f14da1b5d2393",
   "lastOpenFiles": [
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
+    "JWT + Spring Security + OAuth2.0/images/application-yml-image.png",
+    "JWT + Spring Security + OAuth2.0/images/Cookie인증.png",
     "JWT + Spring Security + OAuth2.0/images/Header_InterFace.png",
-    "JWT + Spring Security + OAuth2.0/images/Pasted image 20240827212718.png",
     "JWT + Spring Security + OAuth2.0/images/JWT.png",
     "JWT + Spring Security + OAuth2.0/images/Pasted image 20240823215029.png",
+    "JWT + Spring Security + OAuth2.0/images/Pasted image 20240827212718.png",
     "JWT + Spring Security + OAuth2.0/images/Pasted image 20240828181310.png",
     "JWT + Spring Security + OAuth2.0/images/Session인증방식.png",
-    "JWT + Spring Security + OAuth2.0/images/application-yml-image.png",
     "JWT + Spring Security + OAuth2.0/images/스크린샷 2024-08-28 오후 8.18.37.png",
     "README.md",
     "무제 파일.md",
     "google.png",
     "![Cookie인증.md",
-    "JWT + Spring Security + OAuth2.0/images/Cookie인증.png",
     "JWT + Spring Security + OAuth2.0/images",
     "JWT + Spring Security + OAuth2.0",
     "OAuth/DefaultOAuth2UserService.md",
