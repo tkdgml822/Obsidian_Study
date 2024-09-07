@@ -2,7 +2,7 @@
 
 전 글 : 블로그 - [JWT + Spring Security + OAuth2.0 (1)](https://velog.io/@tkdgml82/JWT-Spring-Security-OAuth2.0-1-5atjok39) 깃 - [JWT + Spring Security + OAuth2.0 (1)](https://github.com/tkdgml822/Obsidian_Study/blob/main/JWT%20%2B%20Spring%20Security%20%2B%20OAuth2.0/JWT%20%2B%20Spring%20Security%20%2B%20OAuth2.0%20(1).md)
 
-코드를 설명하기 전에 제가 진행한 프로젝트는 `thyleaf` 및 `dto` 은 설명하지 않겠습니다. JWT 및 OAuth2.0에서 주요 코드들만 설명을 하도록 하겠습니다
+코드를 설명하기 전에 제가 진행한 프로젝트는 `thyleaf` 및 `dto` 은 자세히 설명하지 않겠습니다. JWT 및 OAuth2.0에서 주요 코드들만 설명을 하도록 하겠습니다
 
 ## JwtProperties
 
@@ -435,7 +435,6 @@ public class RefreshToken {
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 @Column(name = "id", updatable = false)
 private Long id;
-
 ```
 - `@Id` : Primary키를 설정하는 키입니다.
 - `@GeneratedValue(strategy = GenerationType.IDENTITY)`: 자동으로 값이 증가하는 설정입니다. 값이 들어가면 인덱스가 1씩 증가 합니다.
@@ -529,6 +528,182 @@ public class TokenService {
 - `Long userId = refreshTokenService.findByRefreshToken(refreshToken).getUserId();`: 검증을 성공후 Token으로 userId를 가져옵니다.
 - `User user = userService.findById(userId)` : 유저의 Id를 찾았으니 실제 User 테이블에서 userId로 조회한 유저를 가져옵니다.
 - `return tokenProvider.generateToken(user, Duration.ofHours(2))`:  토큰을 생성하고 반환합니다.  토큰 만료 기간은 2시간으로 설정합니다.
+
+
+## CookieUtil
+```java
+public class CookieUtil {  
+  
+    // 요청값(이름, 값, 만료 기간)을 바탕으로 쿠키 추가  
+    public static void addCookie(HttpServletResponse response, String name, String value, int maxAge) {  
+        Cookie cookie = new Cookie(name, value);  
+        cookie.setPath("/");  
+        cookie.setMaxAge(maxAge);  
+  
+        response.addCookie(cookie);  
+    }  
+  
+    // 쿠키의 이름을 입력받아 쿠키 삭제  
+    public static void deleteCookie(HttpServletRequest request, HttpServletResponse response, String name) {  
+        Cookie[] cookies = request.getCookies();  
+  
+        if (cookies == null) {  
+            return;  
+        }  
+  
+        for (Cookie cookie : cookies) {  
+            if (name.equals(cookie.getName())) {  
+                cookie.setValue("");  
+                cookie.setPath("/");  
+                cookie.setMaxAge(0);  
+                response.addCookie(cookie);  
+            }  
+        }  
+    }  
+  
+    // 객체를 직렬화해 쿠키의 값으로 반환  
+    public static String serialize(Object obj) {  
+        return Base64.getUrlEncoder()  
+                .encodeToString(SerializationUtils.serialize(obj));  
+    }  
+  
+    // 쿠키를 역직렬화해 객체로 변환  
+    public static <T> T deserialize(Cookie cookie, Class<T> cls) {  
+        return cls.cast(  
+                SerializationUtils.deserialize(  
+                        Base64.getUrlDecoder().decode(cookie.getValue())  
+                )  
+        );  
+    }  
+}
+```
+Cookie를 손쉽게 사용할 수 있게 해주는 클래스입니다.
+
+#### `addCookie()`
+쿠키를 추가하는 메서드입니다.
+```java
+// 요청값(이름, 값, 만료 기간)을 바탕으로 쿠키 추가  
+public static void addCookie(HttpServletResponse response, String name, String value, int maxAge) {  
+	Cookie cookie = new Cookie(name, value);  
+	cookie.setPath("/");  
+	cookie.setMaxAge(maxAge);  
+  
+	response.addCookie(cookie);  
+}  
+```
+- `setPath()`:쿠키를 생성하고 쿠키에 이름, 값을 넣습니다. 그런 다음 `setPath()`을 설정해줍니다.`setPath()`은 쿠키의 쿠키의 유효 범위를 설정해주는 경로입니다.
+  예를 들어 path를 `/api`라고 쿠키의 유효범위를 설정을 해주면 `/api`경로 이하의 URL에서만 쿠키에 접근할 수 있습니다. 현재 이 쿠키는 `/`로 경로설정이 되어있기 때문에 전체 경로에서 접근할 수 있습니다.
+- `setMaxAge()`: 쿠키의 만료시간입니다. 정수값을 넣으면 쿠키의 만료를 정합니다. 나중에 나온지만 현재 이 프로젝트에서의 쿠키의 만료기간은 5시간(18000)으로 설정되어 있습니다.
+- `reponse.addCookie(cookie)`: 쿠키에 데이터가 들어가고 설정이 완료되었으면 이제 response을 통해 쿠키를 추가 해줍니다.
+
+#### `deleteCookie()`
+쿠키를 삭제하는 메서드입니다.
+```java
+public static void deleteCookie(HttpServletRequest request, HttpServletResponse response, String name) {  
+	Cookie[] cookies = request.getCookies();
+
+	if (cookies == null) {  
+		return;  
+	}  
+  
+	for (Cookie cookie : cookies) {  
+		if (name.equals(cookie.getName())) {  
+			cookie.setValue("");  
+			cookie.setPath("/");  
+			cookie.setMaxAge(0);  
+			response.addCookie(cookie);  
+		}  
+	}  
+}  
+```
+`Cookie[] cookies = request.getCookies();`: 클라이언트에서 쿠키를 가져옵니다.
+`if (cookies == null) {return;}`: 만약에 쿠키가 없으면 return합니다.
+
+```java
+for (Cookie cookie : cookies) {  
+	if (name.equals(cookie.getName())) {  
+		cookie.setValue("");  
+		cookie.setPath("/");  
+		cookie.setMaxAge(0);  
+		response.addCookie(cookie);  
+	}  
+}  
+```
+- `for (Cookie cookie : cookie)`: 쿠키가 있을 경우 for으로 쿠키 전체를 검색합니다.
+- `setValue("")`, `setPath("/")`, `setMaxAge(0)`: 쿠키의 값을 비우고 만료기간을 0초로 지정
+- `response.addCookie(cookie)`: 초기화를 완료 했으니깐 클라이언트에 보냅니다.
+
+#### `serialize()`
+ 객체를 직렬화해서 쿠키의 값으로 반환해주는 메서드입니다.
+```java
+// 객체를 직렬화해 쿠키의 값으로 반환  
+public static String serialize(Object obj) {  
+    return Base64.getUrlEncoder()  
+            .encodeToString(SerializationUtils.serialize(obj));  
+}
+```
+`Base64.getUrlEncoder`를 이용하면 url을 인코딩 할 수 있는데 쿠키를 직렬화를 한 후 인코딩합니다.
+
+의문
+getUrlEncoder을 쓴 이유
+
+## OAuth2AuthorizationRequestBasedOnCookieRepository(덜씀)
+
+```java
+// OAuth2에 필요한 정보를 세선이 아닌 쿠키에 저장해서 쓸 수 있도록 인증 요청과 관련된 상태를 저장할 저장소
+public class OAuth2AuthorizationRequestBasedOnCookieRepository implements AuthorizationRequestRepository<OAuth2AuthorizationRequest> {  
+  
+    public final static String OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME = "oauth2_auth_request";  
+    private final static int COOKIE_EXPIRE_SECONDS = 18000;  
+  
+    @Override  
+    public OAuth2AuthorizationRequest loadAuthorizationRequest(HttpServletRequest request) {  
+        Cookie cookie = WebUtils.getCookie(request, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME);  
+        return CookieUtil.deserialize(cookie, OAuth2AuthorizationRequest.class);  
+    }  
+  
+    @Override  
+    public void saveAuthorizationRequest(OAuth2AuthorizationRequest authorizationRequest, HttpServletRequest request, HttpServletResponse response) {  
+        if (authorizationRequest == null) {  
+            removeAuthorizationRequestCookie(request, response);  
+            return;  
+        }  
+  
+        CookieUtil.addCookie(  
+                response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME,  
+                CookieUtil.serialize(authorizationRequest), COOKIE_EXPIRE_SECONDS  
+        );  
+    }  
+  
+    @Override  
+    public OAuth2AuthorizationRequest removeAuthorizationRequest(HttpServletRequest request, HttpServletResponse response) {  
+        return this.loadAuthorizationRequest(request);  
+    }  
+  
+    public void removeAuthorizationRequestCookie(HttpServletRequest request, HttpServletResponse response) {  
+        CookieUtil.deleteCookie(request, response, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME);  
+    }  
+}
+```
+OAuth2에 필요한 정보를 세션이 아닌 쿠키에 저장해서 쓸 수 있도록 인증 요청과 관련된 상태를 저장할 저장소입니다. 
+
+필드
+```java
+public final static String OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME = "oauth2_auth_request";  
+private final static int COOKIE_EXPIRE_SECONDS = 18000;
+```
+- `OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME` : 쿠키의 이름입니다. `oauth2_auth_request` 입니다.
+- `COOKIE_EXPIRE_SECONDS`: 쿠키 만료기간입니다. 18000초(5시간)으로 설정합니다.
+
+```java
+@Override  
+public OAuth2AuthorizationRequest loadAuthorizationRequest(HttpServletRequest request) {  
+    Cookie cookie = WebUtils.getCookie(request, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME);  
+    return CookieUtil.deserialize(cookie, OAuth2AuthorizationRequest.class);  
+}
+```
+`Cookie cookie = WebUtils.getCookie(request, OAUTH2_AUTHORIZATION_REQUEST_COOKIE_NAME)`" : 클라이언트에서 쿠키를 가져옵니다.
+`return CookieUtil.deserizlize(cookie, OAuth2AuthorizationRequest.clss)`:  쿠키를  역
 
 참고 
 [스프링의 @ConfigurationProperites 의 정확한 사용법, properties 읽어오기](https://blog.yevgnenll.me/posts/spring-configuration-properties-fetch-application-properties)</br>

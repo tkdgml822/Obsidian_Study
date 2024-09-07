@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5,
+    "collapsed": true
   },
   "right": {
     "id": "e74a74d92b46fad6",
@@ -157,10 +158,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "f45f14da1b5d2393",
+  "active": "3b404a2d240a3d9a",
   "lastOpenFiles": [
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
+    "CS/Base64.md",
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
+    "CS",
     "JWT + Spring Security + OAuth2.0/images/application-yml-image.png",
     "JWT + Spring Security + OAuth2.0/images/Cookie인증.png",
     "JWT + Spring Security + OAuth2.0/images/Header_InterFace.png",
@@ -181,7 +184,7 @@
     "Spring Security/GrantedAuthority.md",
     "Spring Security/UserDeatils & GrantedAuthority.md",
     "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md",
-    "HTTP, 네트워크/Servlet, Servlet Container, ServletContext, WebApplicationContext.md",
+    "CS/HTTP, 네트워크/Servlet, Servlet Container, ServletContext, WebApplicationContext.md",
     "자바/Collections.singleton.md",
     "JWT/JWT.md",
     "JWT/토큰 기반 인증의 특징.md",
@@ -194,13 +197,12 @@
     "Spring Security/image",
     "Spring Security",
     "JPA/영속성 컨텍스트란?.md",
-    "데이터베이스/트랜잭션이란?.md",
+    "CS/데이터베이스/트랜잭션이란?.md",
     "JPA",
-    "데이터베이스",
-    "아키텍처/레이어드 아키텍처.md",
-    "HTTP, 네트워크/로드 밸런싱이란?.md",
-    "아키텍처",
-    "HTTP, 네트워크/HTTP3.md",
+    "CS/데이터베이스",
+    "CS/아키텍처/레이어드 아키텍처.md",
+    "CS/HTTP, 네트워크/로드 밸런싱이란?.md",
+    "CS/HTTP, 네트워크/HTTP3.md",
     "2024-06-27.md",
     "자바/HashMap 자세히 살펴보기(아직 덜 적음).md",
     "자바/컬렉션 프레임워크 1.md"
