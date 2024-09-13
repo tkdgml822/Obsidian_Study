@@ -1,4 +1,5 @@
-![](./images/mysql_logo.png)
+![title|center|400](./images/mysql_logo.png)
+# CREATE TABLE
 
 이글은 EXISTS와 IF EXISTS에 대한 들어가기 앞서`student_details` 테이블을 만듭시다.
 ```sql

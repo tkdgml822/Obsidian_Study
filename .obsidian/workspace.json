@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md"
+                "file": "README.md"
               }
             }
           },
@@ -172,12 +172,12 @@
   },
   "active": "5d622e0ff7122c12",
   "lastOpenFiles": [
+    "데이터베이스/MySQL - EXISTS.md",
+    "README.md",
     "images/M.md",
     "images",
     "데이터베이스/images/mysql_logo.png",
     "데이터베이스/images",
-    "README.md",
-    "데이터베이스/MySQL - EXISTS.md",
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
     "데이터베이스",
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
