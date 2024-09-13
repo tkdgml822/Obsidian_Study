@@ -36,6 +36,10 @@
 [동일성과 동등성](https://github.com/tkdgml822/Obsidian_Study/blob/main/자바/동일성과%20동등성.md)</br>
 [HashMap 자세히 살펴보기(아직 덜 적음)](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EC%9E%90%EB%B0%94/HashMap%20%EC%9E%90%EC%84%B8%ED%9E%88%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0(%EC%95%84%EC%A7%81%20%EB%8D%9C%20%EC%A0%81%EC%9D%8C).md)</br>
 [Collections.singleton이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EC%9E%90%EB%B0%94/Collections.singleton.md) </br>
+
+# 데이터베이스
+
+
 # 스프링
 [검증 처리 - 입력한 내용이 유지 되는 이유](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring/%EA%B2%80%EC%A6%9D%20%EC%B2%98%EB%A6%AC%20-%20%EC%9E%85%EB%A0%A5%ED%95%9C%20%EB%82%B4%EC%9A%A9%EC%9D%B4%20%EC%9C%A0%EC%A7%80%20%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md) </br>
 [ObjectMapper란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring/Spring%20-%20objectMapper.md)</br>

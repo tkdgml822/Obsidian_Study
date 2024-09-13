@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d622e0ff7122c12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "데이터베이스/MySQL - EXISTS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "right": {
     "id": "e74a74d92b46fad6",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
+                "file": "데이터베이스/MySQL - EXISTS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
+                "file": "데이터베이스/MySQL - EXISTS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md"
+                "file": "데이터베이스/MySQL - EXISTS.md"
               }
             }
           },
@@ -158,11 +170,18 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "3b404a2d240a3d9a",
+  "active": "5d622e0ff7122c12",
   "lastOpenFiles": [
+    "images/M.md",
+    "images",
+    "데이터베이스/images/mysql_logo.png",
+    "데이터베이스/images",
+    "README.md",
+    "데이터베이스/MySQL - EXISTS.md",
+    "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
+    "데이터베이스",
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
     "CS/Base64.md",
-    "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
     "CS",
     "JWT + Spring Security + OAuth2.0/images/application-yml-image.png",
     "JWT + Spring Security + OAuth2.0/images/Cookie인증.png",
@@ -173,9 +192,6 @@
     "JWT + Spring Security + OAuth2.0/images/Pasted image 20240828181310.png",
     "JWT + Spring Security + OAuth2.0/images/Session인증방식.png",
     "JWT + Spring Security + OAuth2.0/images/스크린샷 2024-08-28 오후 8.18.37.png",
-    "README.md",
-    "무제 파일.md",
-    "google.png",
     "![Cookie인증.md",
     "JWT + Spring Security + OAuth2.0/images",
     "JWT + Spring Security + OAuth2.0",
@@ -195,16 +211,12 @@
     "JWT/image",
     "JWT",
     "Spring Security/image",
-    "Spring Security",
     "JPA/영속성 컨텍스트란?.md",
     "CS/데이터베이스/트랜잭션이란?.md",
-    "JPA",
-    "CS/데이터베이스",
     "CS/아키텍처/레이어드 아키텍처.md",
     "CS/HTTP, 네트워크/로드 밸런싱이란?.md",
     "CS/HTTP, 네트워크/HTTP3.md",
     "2024-06-27.md",
-    "자바/HashMap 자세히 살펴보기(아직 덜 적음).md",
-    "자바/컬렉션 프레임워크 1.md"
+    "자바/HashMap 자세히 살펴보기(아직 덜 적음).md"
   ]
 }
