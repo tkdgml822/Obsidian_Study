@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7a44bdf6515e5044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring-DB-Ch1/Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md",
+                "file": "Spring-DB-Ch1/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md",
+                "file": "Spring-DB-Ch1/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md"
+                "file": "Spring-DB-Ch1/Test.md"
               }
             }
           },
@@ -170,10 +182,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "5d622e0ff7122c12",
+  "active": "f45f14da1b5d2393",
   "lastOpenFiles": [
-    "README.md",
+    "Spring-DB-Ch1/Test.md",
+    "Spring-DB-Ch1",
     "데이터베이스/MySQL - EXISTS.md",
+    "README.md",
     "images/M.md",
     "images",
     "데이터베이스/images/mysql_logo.png",
@@ -210,13 +224,10 @@
     "JWT/토큰 유효기간.md",
     "JWT/image",
     "JWT",
-    "Spring Security/image",
     "JPA/영속성 컨텍스트란?.md",
     "CS/데이터베이스/트랜잭션이란?.md",
     "CS/아키텍처/레이어드 아키텍처.md",
     "CS/HTTP, 네트워크/로드 밸런싱이란?.md",
-    "CS/HTTP, 네트워크/HTTP3.md",
-    "2024-06-27.md",
-    "자바/HashMap 자세히 살펴보기(아직 덜 적음).md"
+    "CS/HTTP, 네트워크/HTTP3.md"
   ]
 }
