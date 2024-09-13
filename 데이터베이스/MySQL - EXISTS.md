@@ -35,7 +35,7 @@ stu_id	stu_firstName	stu_lastName
 7	      David	        Miller
 ```
 
-# MySQL에서 `EXISTS` 사용법
+# MySQL에서 **EXISTS** 사용법
 EXISTS는 일반적으로 `DELETE`, `SELETCT`, `INSERT` 또는 `UPDATE`를 사용하는데 사용합니다.
 ```sql
 SELECT column_name  
@@ -67,7 +67,7 @@ SELECT EXISTS(SELECT * from student_details WHERE stu_id=4) as RESULT;
 
 퀴리 순서는 다음과 같습니다. 메인 쿼리 -> EXISTS 퀴리
 
-# MySQL에서 `IF EXISTS` 사용법
+# MySQL에서 **IF EXISTS** 사용법
 MySQL 명령문 중 조건문인 `IF`문을 사용하면 해당 조건의 기반으로 출력을 변경할 수 있습니다.
 ```sql
 SELECT IF( EXISTS(
@@ -113,7 +113,7 @@ SELECT IF ( EXUSTS(
 +--------------------+
 ```
 
-# `IF EXISTS CASCADE`
+# **IF EXISTS CASCADE**
 전에 블로그 글을 보다가 `IF EXISTS CASCADE`라는 것도 봤다. 주로 테이블을 삭제할때 같이 사용했다.
 다음 명령어를 보자.
 ```sql
