@@ -4,7 +4,7 @@
 
 - 자바의 연산자들
 
-	![operators](./images/operators-image.png)
+	![operators](operators-image.png)
     
 - 복합 대입 연산자
     

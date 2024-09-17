@@ -3,5 +3,7 @@
   "obsidian-table-generator",
   "periodic-notes",
   "obsidian-git",
-  "markdown-table-editor"
+  "markdown-table-editor",
+  "editing-toolbar",
+  "make-md"
 ]

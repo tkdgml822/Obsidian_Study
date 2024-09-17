@@ -8,43 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b404a2d240a3d9a",
+            "id": "c824017db4f870c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d622e0ff7122c12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "데이터베이스/MySQL - EXISTS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a44bdf6515e5044",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring-DB-Ch1/Test.md",
-                "mode": "source",
-                "source": false
+                "path": "Spring-DB-Ch1"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +62,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "9503bd766c3b0b69",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -110,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring-DB-Ch1/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring-DB-Ch1/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spring-DB-Ch1/Test.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,52 +160,53 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "f45f14da1b5d2393",
+  "active": "9503bd766c3b0b69",
   "lastOpenFiles": [
-    "Spring-DB-Ch1/Test.md",
-    "Spring-DB-Ch1",
-    "데이터베이스/MySQL - EXISTS.md",
-    "README.md",
-    "images/M.md",
-    "images",
-    "데이터베이스/images/mysql_logo.png",
-    "데이터베이스/images",
-    "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (2).md",
-    "데이터베이스",
-    "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0 (1).md",
+    "Spring-DB-Ch1/Spring-DB-Ch1.md",
+    "Spring-DB-Ch1/섹션 4.md",
     "CS/Base64.md",
+    "CS/데이터베이스/데이터베이스.md",
+    "Vault.md",
+    "데이터베이스/데이터베이스.md",
+    "JPA/JPA.md",
+    "CS/CS.md",
+    "JWT + Spring Security + OAuth2.0/images/images.md",
+    "Spring/images/images.md",
+    "Spring Security/image/image.md",
+    "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0.md",
+    "OAuth/OAuth.md",
+    "Spring Security/Spring Security.md",
+    "자바/자바.md",
+    "데이터베이스/MVCC(다중 버전 동시성 제어)란.md",
+    "Spring/Spring.md",
+    "데이터베이스/images/images.md",
+    "데이터베이스/트랜잭션의 격리 수준(덜 씀).md",
+    "Spring-DB-Ch1/섹션 2.md",
+    "Spring-DB-Ch1/섹션 3.md",
+    "Spring-DB-Ch1/images/커넥션을 획득하는 방법을 추상화.png",
+    "Spring-DB-Ch1/images/images.md",
+    "Spring-DB-Ch1/images/DriverManager를 통해 커넥션 획득하다가 커넥션 풀로 변경시 문제.png",
+    "Tags/Tags.md",
+    "README.md",
+    "Spring-DB-Ch1/images/커넥션 풀 사용2.png",
+    "Spring-DB-Ch1/images/커넥션 풀 사용1.png",
+    "Spring-DB-Ch1/images/커넥션 풀의 연결 상태.png",
+    "Spring-DB-Ch1/images/DiverManager 커넥션 요청 흐름.png",
+    "Spring-DB-Ch1/images/JDBC 표준 인터페이스.png",
+    "Spring-DB-Ch1/images/커넥션 풀 초기화.png",
+    "Spring-DB-Ch1/images/데이터베이스 커넥션을 매번 획득.png",
+    "Spring-DB-Ch1/images/드라이버.png",
+    "Spring-DB-Ch1/섹션3/섹션3.md",
+    "Spring-DB-Ch1/섹션3",
+    "데이터베이스/MySQL - EXISTS.md",
+    "Tags",
+    "Spring-DB-Ch1/images",
+    "Spring-DB-Ch1",
+    "images",
+    "데이터베이스/images",
+    "데이터베이스",
     "CS",
-    "JWT + Spring Security + OAuth2.0/images/application-yml-image.png",
-    "JWT + Spring Security + OAuth2.0/images/Cookie인증.png",
-    "JWT + Spring Security + OAuth2.0/images/Header_InterFace.png",
-    "JWT + Spring Security + OAuth2.0/images/JWT.png",
-    "JWT + Spring Security + OAuth2.0/images/Pasted image 20240823215029.png",
-    "JWT + Spring Security + OAuth2.0/images/Pasted image 20240827212718.png",
-    "JWT + Spring Security + OAuth2.0/images/Pasted image 20240828181310.png",
-    "JWT + Spring Security + OAuth2.0/images/Session인증방식.png",
-    "JWT + Spring Security + OAuth2.0/images/스크린샷 2024-08-28 오후 8.18.37.png",
-    "![Cookie인증.md",
     "JWT + Spring Security + OAuth2.0/images",
-    "JWT + Spring Security + OAuth2.0",
-    "OAuth/DefaultOAuth2UserService.md",
-    "Spring Security/인증 처리.md",
-    "Spring Security/GrantedAuthority.md",
-    "Spring Security/UserDeatils & GrantedAuthority.md",
-    "Spring Security/Spring Security OAuth2 구현중 Google Login OAuth2UserCustomService 로직 동작하지 않는 문제.md",
-    "CS/HTTP, 네트워크/Servlet, Servlet Container, ServletContext, WebApplicationContext.md",
-    "자바/Collections.singleton.md",
-    "JWT/JWT.md",
-    "JWT/토큰 기반 인증의 특징.md",
-    "OAuth",
-    "Spring/Spring - objectMapper.md",
-    "Spring/검증 처리 - 입력한 내용이 유지 되는 이유.md",
-    "JWT/토큰 유효기간.md",
-    "JWT/image",
-    "JWT",
-    "JPA/영속성 컨텍스트란?.md",
-    "CS/데이터베이스/트랜잭션이란?.md",
-    "CS/아키텍처/레이어드 아키텍처.md",
-    "CS/HTTP, 네트워크/로드 밸런싱이란?.md",
-    "CS/HTTP, 네트워크/HTTP3.md"
+    "JWT + Spring Security + OAuth2.0"
   ]
 }

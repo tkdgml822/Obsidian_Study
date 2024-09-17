@@ -1,3 +1,6 @@
+---
+sticker: lucide//key
+---
 토큰을 발급받고 JWT을 이용해서 인증을 하려면 HTTP 요청 헤더 중에 Authorization 키값에 **Bearer + JWT 토큰값**을 넣어 보내야 합니다.
 
 그러면 어떠한 구조로 이루어져 있을까요?
