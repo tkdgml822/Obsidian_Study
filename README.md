@@ -38,7 +38,8 @@
 [Collections.singleton이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EC%9E%90%EB%B0%94/Collections.singleton.md) </br>
 
 # 데이터베이스
-[EXISTS, IF EXISTS, IF EXISTS CASCADE](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/MySQL%20-%20EXISTS.md)
+[EXISTS, IF EXISTS, IF EXISTS CASCADE](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/MySQL%20-%20EXISTS.md)</br>
+[MVCC이란?](https://github.com/tkdgml822/Obsidian_Study/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/MVCC(%EB%8B%A4%EC%A4%91%20%EB%B2%84%EC%A0%84%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EC%A0%9C%EC%96%B4)%EB%9E%80.md)
 
 # 스프링
 [검증 처리 - 입력한 내용이 유지 되는 이유](https://github.com/tkdgml822/Obsidian_Study/blob/main/Spring/%EA%B2%80%EC%A6%9D%20%EC%B2%98%EB%A6%AC%20-%20%EC%9E%85%EB%A0%A5%ED%95%9C%20%EB%82%B4%EC%9A%A9%EC%9D%B4%20%EC%9C%A0%EC%A7%80%20%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md) </br>

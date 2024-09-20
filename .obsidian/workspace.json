@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "데이터베이스/MVCC(다중 버전 동시성 제어)란.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "데이터베이스/MVCC(다중 버전 동시성 제어)란.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "데이터베이스/MVCC(다중 버전 동시성 제어)란.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "데이터베이스/MVCC(다중 버전 동시성 제어)란.md"
+                "file": "README.md"
               }
             }
           },
@@ -168,8 +168,8 @@
   },
   "active": "c824017db4f870c8",
   "lastOpenFiles": [
-    "데이터베이스/트랜잭션이란?.md",
     "데이터베이스/MVCC(다중 버전 동시성 제어)란.md",
+    "데이터베이스/트랜잭션이란?.md",
     "데이터베이스/MySQL - EXISTS.md",
     "데이터베이스/트랜잭션의 격리 수준(덜 씀).md",
     "데이터베이스/images/Pasted image 20240920200501.png",
