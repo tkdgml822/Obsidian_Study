@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "831dd7dc5e051caf",
+        "id": "09a9c1108a89d2d2",
         "type": "tabs",
         "children": [
           {
-            "id": "c824017db4f870c8",
+            "id": "dcf081b2b543f72e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "수학/1장 논리의 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 312.5,
+    "collapsed": true
   },
   "right": {
     "id": "e74a74d92b46fad6",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "수학/1장 논리의 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "수학/1장 논리의 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "수학/1장 논리의 기초.md"
               }
             }
           },
@@ -166,52 +167,54 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "c824017db4f870c8",
+  "active": "dcf081b2b543f72e",
   "lastOpenFiles": [
+    "무제 파일.md",
+    "수학/1장 논리의 기초.md",
+    "수학/1. 논리의 기초.md",
+    "수학/Untitled.canvas",
+    "수학",
+    "수학학/수락.md",
+    "수학학",
+    "무제 파일 1.md",
+    "JPA/영속성 컨텍스트란?.md",
+    "Spring-DB-Ch1/섹션 5.md",
+    "Spring-DB-Ch1/섹션 4.md",
+    "Spring-DB-Ch1/Spring-DB-Ch1.md",
+    "Tags",
+    "Spring-DB-Ch1/images/스크린샷 2024-09-21 오후 5.00.22.png",
+    "Spring-DB-Ch1/섹션 3.md",
+    "JPA/JPA.md",
+    "데이터베이스/데이터베이스.md",
+    "데이터베이스/트랜잭션의 격리 수준(덜 씀).md",
+    "README.md",
     "데이터베이스/MVCC(다중 버전 동시성 제어)란.md",
     "데이터베이스/트랜잭션이란?.md",
     "데이터베이스/MySQL - EXISTS.md",
-    "데이터베이스/트랜잭션의 격리 수준(덜 씀).md",
     "데이터베이스/images/Pasted image 20240920200501.png",
-    "Tags",
-    "Spring-DB-Ch1/섹션 4.md",
-    "Spring-DB-Ch1/섹션 3.md",
-    "Spring-DB-Ch1/Spring-DB-Ch1.md",
     "CS/Base64.md",
     "CS/데이터베이스/데이터베이스.md",
     "Vault.md",
-    "데이터베이스/데이터베이스.md",
-    "JPA/JPA.md",
     "CS/CS.md",
     "JWT + Spring Security + OAuth2.0/images/images.md",
     "Spring/images/images.md",
     "Spring Security/image/image.md",
     "JWT + Spring Security + OAuth2.0/JWT + Spring Security + OAuth2.0.md",
     "OAuth/OAuth.md",
-    "Spring Security/Spring Security.md",
-    "자바/자바.md",
-    "Spring/Spring.md",
-    "데이터베이스/images/images.md",
-    "Spring-DB-Ch1/섹션 2.md",
     "Spring-DB-Ch1/images/커넥션을 획득하는 방법을 추상화.png",
-    "Spring-DB-Ch1/images/images.md",
     "Spring-DB-Ch1/images/DriverManager를 통해 커넥션 획득하다가 커넥션 풀로 변경시 문제.png",
-    "Tags/Tags.md",
     "Spring-DB-Ch1/images/커넥션 풀 사용2.png",
     "Spring-DB-Ch1/images/커넥션 풀 사용1.png",
     "Spring-DB-Ch1/images/커넥션 풀의 연결 상태.png",
     "Spring-DB-Ch1/images/DiverManager 커넥션 요청 흐름.png",
     "Spring-DB-Ch1/images/JDBC 표준 인터페이스.png",
     "Spring-DB-Ch1/images/커넥션 풀 초기화.png",
-    "Spring-DB-Ch1/images/데이터베이스 커넥션을 매번 획득.png",
     "Spring-DB-Ch1/섹션3",
     "Spring-DB-Ch1/images",
     "Spring-DB-Ch1",
     "images",
     "데이터베이스/images",
     "데이터베이스",
-    "CS",
-    "JWT + Spring Security + OAuth2.0/images",
-    "JWT + Spring Security + OAuth2.0"
+    "CS"
   ]
 }
